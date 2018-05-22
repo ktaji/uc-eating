@@ -1,16 +1,1862 @@
+Prefix(:=<http://purl.obolibrary.org/obo/>)
+Prefix(dc:=<http://purl.org/dc/elements/1.1/>)
+Prefix(go:=<http://purl.obolibrary.org/obo/go#>)
+Prefix(iao:=<http://purl.obolibrary.org/obo/iao/>)
+Prefix(obo:=<http://purl.obolibrary.org/obo/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(cito:=<http://purl.org/spar/cito/>)
+Prefix(core:=<http://purl.obolibrary.org/obo/uberon/core#>)
+Prefix(doap:=<http://usefulinc.com/ns/doap#>)
+Prefix(foaf:=<http://xmlns.com/foaf/0.1/>)
+Prefix(obo2:=<http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(skos:=<http://www.w3.org/2004/02/skos/core#>)
+Prefix(core1:=<http://purl.obolibrary.org/obo/core#>)
+Prefix(swrla:=<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>)
+Prefix(terms:=<http://purl.org/dc/terms/>)
+Prefix(protege:=<http://protege.stanford.edu/plugins/owl/protege#>)
+Prefix(subsets:=<http://purl.obolibrary.org/obo/ro/subsets#>)
+Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
+Prefix(patterns:=<http://www.co-ode.org/patterns#>)
+Prefix(NCBITaxon:=<http://purl.obolibrary.org/obo/NCBITaxon#>)
+Prefix(oboInOwl1:=<ttp://www.geneontology.org/formats/oboInOwl#>)
+Prefix(ace_lexicon:=<http://attempto.ifi.uzh.ch/ace_lexicon#>)
+Prefix(insect-anatomy:=<http://purl.obolibrary.org/obo/uberon/insect-anatomy#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/eating.owl>
-Import(<http://purl.obolibrary.org/obo/eating/imports/po_import.owl>)
-Import(<http://purl.obolibrary.org/obo/eating/imports/ro_import.owl>)
+Import(<http://purl.obolibrary.org/obo/MF.owl>)
+Import(<http://purl.obolibrary.org/obo/ro/releases/2018-01-05b/ro.owl>)
+Import(<http://www.w3.org/2006/time#2016>)
+Import(<http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl>)
 Import(<http://purl.obolibrary.org/obo/eating/imports/pato_import.owl>)
 Annotation(rdfs:comment "uc-eating")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000000>))
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000000> "eating"@en)
+
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_000000289>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000042>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000045>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000046>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000048>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000055>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000056>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000057>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000058>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000060>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000062>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000063>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000064>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000065>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000066>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000069>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000071>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000072>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000073>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000074>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000075>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000076>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000077>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000078>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000079>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000080>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000081>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000082>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000083>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000084>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000085>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000086>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000087>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000088>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000089>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000090>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000092>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000093>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000094>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000095>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000096>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000097>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000098>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000099>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_0000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000100>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000101>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000102>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000103>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000104>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000105>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000106>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000107>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000108>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000109>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_0000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000111>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000112>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000113>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000114>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000115>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000116>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000117>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000118>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000119>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_0000012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000120>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000121>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000122>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000123>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000124>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000125>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000127>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000128>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000129>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_0000013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000130>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000131>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000133>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000134>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000135>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000136>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000137>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000138>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000139>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_0000014>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000140>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000141>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000142>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000143>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000144>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000145>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000146>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000147>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000148>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000149>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_0000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000150>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000151>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000152>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000153>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000154>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000155>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000156>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000158>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000159>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000160>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000161>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000162>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000163>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000164>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000165>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000166>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000167>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000168>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000169>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000170>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000171>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000172>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000173>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000174>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000175>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000176>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000178>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000179>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000180>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000181>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000182>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000183>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000184>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000185>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000186>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000187>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000188>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000189>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000190>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000191>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000192>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000193>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000194>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000195>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000196>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000197>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000198>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000199>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_0000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000200>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000201>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000202>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000203>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000204>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000205>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000206>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000207>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000208>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000209>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_0000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000210>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000211>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000213>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000214>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000215>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000216>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000217>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000218>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000219>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_0000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000220>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000221>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000222>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000223>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000224>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000225>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000226>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000227>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000228>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000229>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000230>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000231>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000232>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000233>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000234>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000235>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000236>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000237>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000238>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000239>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000240>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000241>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000242>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000243>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000244>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000245>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000246>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000247>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000248>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000249>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000250>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000251>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000252>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000253>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000254>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000255>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000257>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000258>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000259>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000260>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000261>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000262>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000263>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000264>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000265>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000266>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000267>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000268>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000269>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000270>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000271>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000272>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000273>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000274>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000275>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000276>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000277>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000278>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000279>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000280>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000281>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000282>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000283>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000284>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000285>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000286>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000287>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000288>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000290>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000291>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000292>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000293>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000294>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000295>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000296>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000297>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000298>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000299>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000300>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000301>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000302>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000303>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000304>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000305>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000306>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000307>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000308>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000309>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000310>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_000007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_000009>))
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000000> (motivation process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000000> "motivation process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000000> <http://purl.obolibrary.org/obo/EATING_00000017>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000001> (eating influenced by external stimuli)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000001> "eating influenced by external stimuli"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000001> <http://purl.obolibrary.org/obo/EATING_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000002> (eating influenced by internal stimuli)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000002> "eating influenced by internal stimuli"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000002> <http://purl.obolibrary.org/obo/EATING_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000003> (extrinsic motivation process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000003> "extrinsic motivation process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000003> <http://purl.obolibrary.org/obo/EATING_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000016> (behavior process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000016> "behavior process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000016> obo:GO_0008150)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000017> (mental process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000017> "mental process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000017> obo:GO_0008150)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000018> (intrinsic motivation process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000018> "intrinsic motivation process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000018> <http://purl.obolibrary.org/obo/EATING_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000019> (consumption behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000019> "consumption behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000019> <http://purl.obolibrary.org/obo/EATING_00000016>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000023> (physical food preparement process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000023> "physical food preparement process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000023> <http://purl.obolibrary.org/obo/EATING_00000016>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000024> (coring process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000024> "coring process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000024> <http://purl.obolibrary.org/obo/EATING_00000023>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000025> (cutting process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000025> "cutting process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000025> <http://purl.obolibrary.org/obo/EATING_00000023>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000026> (dehusking process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000026> "dehusking process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000026> <http://purl.obolibrary.org/obo/EATING_00000023>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000027> (peeling process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000027> "peeling process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000027> <http://purl.obolibrary.org/obo/EATING_00000023>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000028> (pit removal process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000028> "pit removal process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000028> <http://purl.obolibrary.org/obo/EATING_00000023>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_000000289> (two meals/day)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_000000289> "two meals/day"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_000000289> <http://purl.obolibrary.org/obo/EATING_00000283>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000029> (slicing process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000029> "slicing process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000029> <http://purl.obolibrary.org/obo/EATING_00000023>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000030> (feeding behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000030> "feeding behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000030> <http://purl.obolibrary.org/obo/EATING_00000019>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000031> (diet restriction behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000031> "diet restriction behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000031> <http://purl.obolibrary.org/obo/EATING_00000030>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000032> (eating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000032> "eating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000032> <http://purl.obolibrary.org/obo/EATING_00000030>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000033> (calorie restriction behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000033> "calorie restriction behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000033> <http://purl.obolibrary.org/obo/EATING_00000031>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000034> (diet restriction avoidance)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000034> "diet restriction avoidance"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000034> <http://purl.obolibrary.org/obo/EATING_00000031>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000035> (micronutrient restriction behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000035> "micronutrient restriction behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000035> <http://purl.obolibrary.org/obo/EATING_00000031>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000036> (time based restriction diet)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000036> "time based restriction diet"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000036> <http://purl.obolibrary.org/obo/EATING_00000031>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000037> (carboyhdrate restriction behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000037> "carboyhdrate restriction behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000037> <http://purl.obolibrary.org/obo/EATING_00000035>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000038> (fat restriction behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000038> "fat restriction behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000038> <http://purl.obolibrary.org/obo/EATING_00000035>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000039> (protein restriction behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000039> "protein restriction behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000039> <http://purl.obolibrary.org/obo/EATING_00000035>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000040> (swallowing behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000040> "swallowing behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000040> <http://purl.obolibrary.org/obo/EATING_00000032>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000041> (suckling behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000041> "suckling behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000041> <http://purl.obolibrary.org/obo/EATING_00000032>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000042> (spitting behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000042> "spitting behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000042> <http://purl.obolibrary.org/obo/EATING_00000032>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000043> (snacking behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000043> "snacking behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000043> <http://purl.obolibrary.org/obo/EATING_00000032>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000044> (slurping behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000044> "slurping behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000044> <http://purl.obolibrary.org/obo/EATING_00000032>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000045> (sipping behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000045> "sipping behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000045> <http://purl.obolibrary.org/obo/EATING_00000032>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000046> (regulated eating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000046> "regulated eating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000046> <http://purl.obolibrary.org/obo/EATING_00000032>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000047> (meal eating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000047> "meal eating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000047> <http://purl.obolibrary.org/obo/EATING_00000032>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000048> (licking behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000048> "licking behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000048> <http://purl.obolibrary.org/obo/EATING_00000032>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000049> (eating session length)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000049> "eating session length"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000049> <http://purl.obolibrary.org/obo/EATING_00000032>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000050> (eating comcomitant with other behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000050> "eating comcomitant with other behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000050> <http://purl.obolibrary.org/obo/EATING_00000032>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000051> (drinking behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000051> "drinking behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000051> <http://purl.obolibrary.org/obo/EATING_00000032>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000052> (chewing behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000052> "chewing behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000052> <http://purl.obolibrary.org/obo/EATING_00000032>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000053> (breastfeeding behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000053> "breastfeeding behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000053> <http://purl.obolibrary.org/obo/EATING_00000032>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000054> (eating influenced by sound)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000054> "eating influenced by sound"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000054> <http://purl.obolibrary.org/obo/EATING_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000055> (alcohol avoidance)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000055> "alcohol avoidance"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000055> <http://purl.obolibrary.org/obo/EATING_00000034>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000056> (caffeine voidance)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000056> "caffeine voidance"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000056> <http://purl.obolibrary.org/obo/EATING_00000034>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000057> (cruciferous vegetables voidance)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000057> "cruciferous vegetables voidance"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000057> <http://purl.obolibrary.org/obo/EATING_00000034>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000058> (dairy voidance)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000058> "dairy voidance"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000058> <http://purl.obolibrary.org/obo/EATING_00000034>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000059> (spicy food voidance)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000059> "spicy food voidance"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000059> <http://purl.obolibrary.org/obo/EATING_00000034>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000060> (breastfeeding influenced by internal stimuli)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000060> "breastfeeding influenced by internal stimuli"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000060> <http://purl.obolibrary.org/obo/EATING_00000053>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000061> (breastfeeding influenced by external stimuli)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000061> "breastfeeding influenced by external stimuli"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000061> <http://purl.obolibrary.org/obo/EATING_00000053>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000062> (breastfeeding influenced by activity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000062> "breastfeeding influenced by activity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000062> <http://purl.obolibrary.org/obo/EATING_00000060>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000063> (breastfeeding influenced by age)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000063> "breastfeeding influenced by age"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000063> <http://purl.obolibrary.org/obo/EATING_00000060>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000064> (breastfeeding influenced by FIL)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000064> "breastfeeding influenced by FIL"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000064> <http://purl.obolibrary.org/obo/EATING_00000060>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000065> (breastfeeding influenced by guilt)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000065> "breastfeeding influenced by guilt"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000065> <http://purl.obolibrary.org/obo/EATING_00000060>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000066> (breastfeeding influenced by history of abuse)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000066> "breastfeeding influenced by history of abuse"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000066> <http://purl.obolibrary.org/obo/EATING_00000060>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000067> (breastfeeding influenced by hypoplasia of mammary gland)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000067> "breastfeeding influenced by hypoplasia of mammary gland"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000067> <http://purl.obolibrary.org/obo/EATING_00000060>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000068> (breastfeeding influenced by lack of milk)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000068> "breastfeeding influenced by lack of milk"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000068> <http://purl.obolibrary.org/obo/EATING_00000060>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000069> (breastfeeding influenced by mastitis)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000069> "breastfeeding influenced by mastitis"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000069> <http://purl.obolibrary.org/obo/EATING_00000060>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000070> (breastfeeding influenced by metabolic/disease state)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000070> "breastfeeding influenced by metabolic/disease state"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000070> <http://purl.obolibrary.org/obo/EATING_00000060>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000071> (breastfeeding influenced by pain)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000071> "breastfeeding influenced by pain"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000071> <http://purl.obolibrary.org/obo/EATING_00000060>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000072> (breastfeeding influenced by acess)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000072> "breastfeeding influenced by acess"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000072> <http://purl.obolibrary.org/obo/EATING_00000061>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000073> (breastfeeding influenced by chemotherapy)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000073> "breastfeeding influenced by chemotherapy"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000073> <http://purl.obolibrary.org/obo/EATING_00000061>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000074> (breastfeeding influenced by convenience)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000074> "breastfeeding influenced by convenience"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000074> <http://purl.obolibrary.org/obo/EATING_00000061>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000075> (breastfeeding influenced by culture)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000075> "breastfeeding influenced by culture"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000075> <http://purl.obolibrary.org/obo/EATING_00000061>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000076> (breastfeeding influenced by environment)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000076> "breastfeeding influenced by environment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000076> <http://purl.obolibrary.org/obo/EATING_00000061>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000077> (breastfeeding influenced by equipment)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000077> "breastfeeding influenced by equipment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000077> <http://purl.obolibrary.org/obo/EATING_00000061>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000078> (breastfeeding influenced by family support)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000078> "breastfeeding influenced by family support"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000078> <http://purl.obolibrary.org/obo/EATING_00000061>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000079> (breastfeeding influenced by place)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000079> "breastfeeding influenced by place"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000079> <http://purl.obolibrary.org/obo/EATING_00000061>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000080> (breastfeeding influenced by radiation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000080> "breastfeeding influenced by radiation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000080> <http://purl.obolibrary.org/obo/EATING_00000061>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000081> (breastfeeding influenced by separation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000081> "breastfeeding influenced by separation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000081> <http://purl.obolibrary.org/obo/EATING_00000061>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000082> (breastfeeding influenced by time)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000082> "breastfeeding influenced by time"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000082> <http://purl.obolibrary.org/obo/EATING_00000061>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000083> (breastfeeding influenced by schedule)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000083> "breastfeeding influenced by schedule"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000083> <http://purl.obolibrary.org/obo/EATING_00000061>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000084> (breastfeeding influenced by allowability)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000084> "breastfeeding influenced by allowability"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000084> <http://purl.obolibrary.org/obo/EATING_00000072>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000085> (breastfeeding influenced by economic status)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000085> "breastfeeding influenced by economic status"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000085> <http://purl.obolibrary.org/obo/EATING_00000072>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000086> (breastfeeding influenced by geography)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000086> "breastfeeding influenced by geography"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000086> <http://purl.obolibrary.org/obo/EATING_00000072>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000087> (breastfeeding influenced by society)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000087> "breastfeeding influenced by society"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000087> <http://purl.obolibrary.org/obo/EATING_00000072>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000088> (breastfeeding influenced by age)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000088> "breastfeeding influenced by age"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000088> <http://purl.obolibrary.org/obo/EATING_00000084>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000089> (breastfeeding influenced by race)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000089> "breastfeeding influenced by race"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000089> <http://purl.obolibrary.org/obo/EATING_00000084>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000090> (breastfeeding influenced by religion)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000090> "breastfeeding influenced by religion"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000090> <http://purl.obolibrary.org/obo/EATING_00000084>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000092> (eating influenced by socio-cultural stimuli)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000092> "eating influenced by socio-cultural stimuli"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000092> <http://purl.obolibrary.org/obo/EATING_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000093> (eating influenced by smell)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000093> "eating influenced by smell"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000093> <http://purl.obolibrary.org/obo/EATING_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000094> (eating influenced by regulation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000094> "eating influenced by regulation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000094> <http://purl.obolibrary.org/obo/EATING_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000095> (eating influenced by media)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000095> "eating influenced by media"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000095> <http://purl.obolibrary.org/obo/EATING_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000096> (eating influenced by geography)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000096> "eating influenced by geography"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000096> <http://purl.obolibrary.org/obo/EATING_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000097> (eating influenced by food environment)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000097> "eating influenced by food environment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000097> <http://purl.obolibrary.org/obo/EATING_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000098> (eating influenced by familial pressure)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000098> "eating influenced by familial pressure"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000098> <http://purl.obolibrary.org/obo/EATING_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000099> (eating influenced by appearance)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000099> "eating influenced by appearance"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000099> <http://purl.obolibrary.org/obo/EATING_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_0000010> (fishing process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_0000010> "fishing process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_0000010> <http://purl.obolibrary.org/obo/EATING_000009>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000100> (eating influenced by accessibility)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000100> "eating influenced by accessibility"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000100> <http://purl.obolibrary.org/obo/EATING_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000101> (eating influenced by transportation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000101> "eating influenced by transportation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000101> <http://purl.obolibrary.org/obo/EATING_00000100>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000102> (eating influenced by availability)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000102> "eating influenced by availability"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000102> <http://purl.obolibrary.org/obo/EATING_00000100>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000103> (eating influenced by economics)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000103> "eating influenced by economics"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000103> <http://purl.obolibrary.org/obo/EATING_00000100>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000104> (eating influenced by home environment)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000104> "eating influenced by home environment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000104> <http://purl.obolibrary.org/obo/EATING_00000097>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000105> (eating influenced by social environment)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000105> "eating influenced by social environment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000105> <http://purl.obolibrary.org/obo/EATING_00000097>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000106> (eating influenced by school environment)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000106> "eating influenced by school environment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000106> <http://purl.obolibrary.org/obo/EATING_00000097>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000107> (eating influenced by work environment)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000107> "eating influenced by work environment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000107> <http://purl.obolibrary.org/obo/EATING_00000097>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000108> (eating influenced by broadcast media)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000108> "eating influenced by broadcast media"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000108> <http://purl.obolibrary.org/obo/EATING_00000095>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000109> (eating influenced by mass media)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000109> "eating influenced by mass media"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000109> <http://purl.obolibrary.org/obo/EATING_00000095>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_0000011> (gathering process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_0000011> "gathering process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_0000011> <http://purl.obolibrary.org/obo/EATING_000009>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000111> (eating influenced by print media)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000111> "eating influenced by print media"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000111> <http://purl.obolibrary.org/obo/EATING_00000095>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000112> (eating influenced by social media)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000112> "eating influenced by social media"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000112> <http://purl.obolibrary.org/obo/EATING_00000095>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000113> (eating influenced by Facebook)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000113> "eating influenced by Facebook"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000113> <http://purl.obolibrary.org/obo/EATING_00000112>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000114> (eating influenced by Instagram)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000114> "eating influenced by Instagram"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000114> <http://purl.obolibrary.org/obo/EATING_00000112>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000115> (eating influenced by Pinterest)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000115> "eating influenced by Pinterest"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000115> <http://purl.obolibrary.org/obo/EATING_00000112>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000116> (eating influenced by Snapchat)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000116> "eating influenced by Snapchat"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000116> <http://purl.obolibrary.org/obo/EATING_00000112>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000117> (eating influenced by Tumblr)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000117> "eating influenced by Tumblr"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000117> <http://purl.obolibrary.org/obo/EATING_00000112>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000118> (eating influenced by Twitter)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000118> "eating influenced by Twitter"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000118> <http://purl.obolibrary.org/obo/EATING_00000112>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000119> (eating influenced by Youtube)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000119> "eating influenced by Youtube"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000119> <http://purl.obolibrary.org/obo/EATING_00000112>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_0000012> (gleaning process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_0000012> "gleaning process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_0000012> <http://purl.obolibrary.org/obo/EATING_000009>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000120> (eating influenced by culture)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000120> "eating influenced by culture"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000120> <http://purl.obolibrary.org/obo/EATING_00000092>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000121> (eating influenced by peer pressure)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000121> "eating influenced by peer pressure"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000121> <http://purl.obolibrary.org/obo/EATING_00000092>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000122> (eating while bathing behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000122> "eating while bathing behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000122> <http://purl.obolibrary.org/obo/EATING_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000123> (eating while biking behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000123> "eating while biking behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000123> <http://purl.obolibrary.org/obo/EATING_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000124> (eating while crying behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000124> "eating while crying behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000124> <http://purl.obolibrary.org/obo/EATING_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000125> (eating while defacating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000125> "eating while defacating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000125> <http://purl.obolibrary.org/obo/EATING_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000127> (eating while driving behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000127> "eating while driving behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000127> <http://purl.obolibrary.org/obo/EATING_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000128> (eating while exercising behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000128> "eating while exercising behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000128> <http://purl.obolibrary.org/obo/EATING_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000129> (eating while laughing behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000129> "eating while laughing behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000129> <http://purl.obolibrary.org/obo/EATING_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_0000013> (hunting process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_0000013> "hunting process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_0000013> <http://purl.obolibrary.org/obo/EATING_000009>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000130> (eating while laying behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000130> "eating while laying behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000130> <http://purl.obolibrary.org/obo/EATING_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000131> (eating while lounging behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000131> "eating while lounging behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000131> <http://purl.obolibrary.org/obo/EATING_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000133> (eating while reading behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000133> "eating while reading behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000133> <http://purl.obolibrary.org/obo/EATING_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000134> (eating while running behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000134> "eating while running behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000134> <http://purl.obolibrary.org/obo/EATING_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000135> (eating while seated behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000135> "eating while seated behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000135> <http://purl.obolibrary.org/obo/EATING_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000136> (eating while studying behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000136> "eating while studying behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000136> <http://purl.obolibrary.org/obo/EATING_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000137> (eating while swimming behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000137> "eating while swimming behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000137> <http://purl.obolibrary.org/obo/EATING_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000138> (eating while talking behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000138> "eating while talking behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000138> <http://purl.obolibrary.org/obo/EATING_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000139> (eating while walking behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000139> "eating while walking behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000139> <http://purl.obolibrary.org/obo/EATING_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_0000014> (purchasing process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_0000014> "purchasing process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_0000014> <http://purl.obolibrary.org/obo/EATING_000009>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000140> (eating while working behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000140> "eating while working behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000140> <http://purl.obolibrary.org/obo/EATING_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000141> (eating while yelling behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000141> "eating while yelling behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000141> <http://purl.obolibrary.org/obo/EATING_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000142> (time spent chewing)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000142> "time spent chewing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000142> <http://purl.obolibrary.org/obo/EATING_00000049>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000143> (time spent eating course)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000143> "time spent eating course"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000143> <http://purl.obolibrary.org/obo/EATING_00000049>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000144> (time spent eating meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000144> "time spent eating meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000144> <http://purl.obolibrary.org/obo/EATING_00000049>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000145> (celebratory meal behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000145> "celebratory meal behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000145> <http://purl.obolibrary.org/obo/EATING_00000047>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000146> (compensatory meal behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000146> "compensatory meal behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000146> <http://purl.obolibrary.org/obo/EATING_00000047>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000147> (feasting meal behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000147> "feasting meal behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000147> <http://purl.obolibrary.org/obo/EATING_00000047>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000148> (health promoting meal behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000148> "health promoting meal behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000148> <http://purl.obolibrary.org/obo/EATING_00000047>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000149> (holiday meal behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000149> "holiday meal behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000149> <http://purl.obolibrary.org/obo/EATING_00000047>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_0000015> (shopping process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_0000015> "shopping process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_0000015> <http://purl.obolibrary.org/obo/EATING_0000014>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000150> (post-workout meal behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000150> "post-workout meal behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000150> <http://purl.obolibrary.org/obo/EATING_00000047>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000151> (religious meal behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000151> "religious meal behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000151> <http://purl.obolibrary.org/obo/EATING_00000047>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000152> (social meal behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000152> "social meal behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000152> <http://purl.obolibrary.org/obo/EATING_00000047>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000153> (familial meal behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000153> "familial meal behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000153> <http://purl.obolibrary.org/obo/EATING_00000152>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000154> (friend social gathering meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000154> "friend social gathering meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000154> <http://purl.obolibrary.org/obo/EATING_00000152>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000155> (religious holiday meals)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000155> "religious holiday meals"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000155> <http://purl.obolibrary.org/obo/EATING_00000149>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000156> (secular holiday meals)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000156> "secular holiday meals"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000156> <http://purl.obolibrary.org/obo/EATING_00000149>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000158> (Christian holiday meals)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000158> "Christian holiday meals"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000158> <http://purl.obolibrary.org/obo/EATING_00000155>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000159> (Catholic holiday meals)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000159> "Catholic holiday meals"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000159> <http://purl.obolibrary.org/obo/EATING_00000155>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000160> (Hindu holiday meals)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000160> "Hindu holiday meals"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000160> <http://purl.obolibrary.org/obo/EATING_00000155>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000161> (Jewish holiday meals)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000161> "Jewish holiday meals"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000161> <http://purl.obolibrary.org/obo/EATING_00000155>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000162> (Chinese holiday meals)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000162> "Chinese holiday meals"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000162> <http://purl.obolibrary.org/obo/EATING_00000155>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000163> (Muslim holiday meals)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000163> "Muslim holiday meals"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000163> <http://purl.obolibrary.org/obo/EATING_00000155>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000164> (Chinese New Year holiday meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000164> "Chinese New Year holiday meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000164> <http://purl.obolibrary.org/obo/EATING_00000162>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000165> (Christmas holiday meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000165> "Christmas holiday meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000165> <http://purl.obolibrary.org/obo/EATING_00000158>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000166> (Easter holiday meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000166> "Easter holiday meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000166> <http://purl.obolibrary.org/obo/EATING_00000158>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000167> (Diwali holiday meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000167> "Diwali holiday meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000167> <http://purl.obolibrary.org/obo/EATING_00000160>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000168> (Ganesh Chaturthi holiday meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000168> "Ganesh Chaturthi holiday meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000168> <http://purl.obolibrary.org/obo/EATING_00000160>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000169> (Holi holiday meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000169> "Holi holiday meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000169> <http://purl.obolibrary.org/obo/EATING_00000160>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000170> (Hanukkah holiday meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000170> "Hanukkah holiday meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000170> <http://purl.obolibrary.org/obo/EATING_00000161>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000171> (Passover holiday meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000171> "Passover holiday meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000171> <http://purl.obolibrary.org/obo/EATING_00000161>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000172> (Rosh Hashanah holiday meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000172> "Rosh Hashanah holiday meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000172> <http://purl.obolibrary.org/obo/EATING_00000161>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000173> (Shabbat holiday meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000173> "Shabbat holiday meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000173> <http://purl.obolibrary.org/obo/EATING_00000161>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000174> (Yom Kippur holiday meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000174> "Yom Kippur holiday meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000174> <http://purl.obolibrary.org/obo/EATING_00000161>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000175> (Eid holiday meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000175> "Eid holiday meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000175> <http://purl.obolibrary.org/obo/EATING_00000163>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000176> (Islamic New Year holiday meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000176> "Islamic New Year holiday meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000176> <http://purl.obolibrary.org/obo/EATING_00000163>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000178> (Father's Day holiday meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000178> "Father's Day holiday meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000178> <http://purl.obolibrary.org/obo/EATING_00000156>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000179> (Labor Day holiday meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000179> "Labor Day holiday meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000179> <http://purl.obolibrary.org/obo/EATING_00000156>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000180> (Mother's Day holiday meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000180> "Mother's Day holiday meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000180> <http://purl.obolibrary.org/obo/EATING_00000156>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000181> (New Year celebration holiday meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000181> "New Year celebration holiday meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000181> <http://purl.obolibrary.org/obo/EATING_00000156>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000182> (Saint Patrick's Day holiday meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000182> "Saint Patrick's Day holiday meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000182> <http://purl.obolibrary.org/obo/EATING_00000156>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000183> (Thanksgiving holiday meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000183> "Thanksgiving holiday meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000183> <http://purl.obolibrary.org/obo/EATING_00000156>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000184> (Fourth of July holiday meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000184> "Fourth of July holiday meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000184> <http://purl.obolibrary.org/obo/EATING_00000156>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000185> (anniversary celebratory meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000185> "anniversary celebratory meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000185> <http://purl.obolibrary.org/obo/EATING_00000145>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000186> (birthday celebratory meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000186> "birthday celebratory meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000186> <http://purl.obolibrary.org/obo/EATING_00000145>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000187> (graduation celebratory meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000187> "graduation celebratory meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000187> <http://purl.obolibrary.org/obo/EATING_00000145>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000188> (personal occasion celebratory meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000188> "personal occasion celebratory meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000188> <http://purl.obolibrary.org/obo/EATING_00000145>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000189> (promotion celebratory meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000189> "promotion celebratory meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000189> <http://purl.obolibrary.org/obo/EATING_00000145>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000190> (wedding celebratory meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000190> "wedding celebratory meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000190> <http://purl.obolibrary.org/obo/EATING_00000145>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000191> (compensation for stress meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000191> "compensation for stress meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000191> <http://purl.obolibrary.org/obo/EATING_00000146>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000192> (compensation for sleep meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000192> "compensation for sleep meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000192> <http://purl.obolibrary.org/obo/EATING_00000146>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000193> (compensation for physical activity meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000193> "compensation for physical activity meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000193> <http://purl.obolibrary.org/obo/EATING_00000146>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000194> (compensation for other foods consumed meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000194> "compensation for other foods consumed meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000194> <http://purl.obolibrary.org/obo/EATING_00000146>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000195> (agricultural feast meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000195> "agricultural feast meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000195> <http://purl.obolibrary.org/obo/EATING_00000147>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000196> (military feast meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000196> "military feast meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000196> <http://purl.obolibrary.org/obo/EATING_00000147>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000197> (religious feast meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000197> "religious feast meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000197> <http://purl.obolibrary.org/obo/EATING_00000147>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000198> (socio-cultural feast meal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000198> "socio-cultural feast meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000198> <http://purl.obolibrary.org/obo/EATING_00000147>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000199> (alkaline diet)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000199> "alkaline diet"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000199> <http://purl.obolibrary.org/obo/EATING_00000148>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_0000020> (food foraging process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_0000020> "food foraging process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_0000020> <http://purl.obolibrary.org/obo/EATING_000009>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000200> (atkins diet)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000200> "atkins diet"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000200> <http://purl.obolibrary.org/obo/EATING_00000148>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000201> (cleansing diet)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000201> "cleansing diet"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000201> <http://purl.obolibrary.org/obo/EATING_00000148>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000202> (fasting cleanse)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000202> "fasting cleanse"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000202> <http://purl.obolibrary.org/obo/EATING_00000201>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000203> (juice cleanse)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000203> "juice cleanse"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000203> <http://purl.obolibrary.org/obo/EATING_00000201>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000204> (master cleanse)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000204> "master cleanse"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000204> <http://purl.obolibrary.org/obo/EATING_00000201>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000205> (raw food cleanse)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000205> "raw food cleanse"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000205> <http://purl.obolibrary.org/obo/EATING_00000201>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000206> (water cleanse)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000206> "water cleanse"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000206> <http://purl.obolibrary.org/obo/EATING_00000201>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000207> (detox diet)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000207> "detox diet"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000207> <http://purl.obolibrary.org/obo/EATING_00000148>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000208> (gluten-free diet)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000208> "gluten-free diet"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000208> <http://purl.obolibrary.org/obo/EATING_00000148>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000209> (high protein diet)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000209> "high protein diet"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000209> <http://purl.obolibrary.org/obo/EATING_00000148>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_0000021> (horticulture process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_0000021> "horticulture process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_0000021> <http://purl.obolibrary.org/obo/EATING_000009>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000210> (keto diet)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000210> "keto diet"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000210> <http://purl.obolibrary.org/obo/EATING_00000148>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000211> (low calorie diet)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000211> "low calorie diet"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000211> <http://purl.obolibrary.org/obo/EATING_00000148>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000213> (hacker's diet)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000213> "hacker's diet"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000213> <http://purl.obolibrary.org/obo/EATING_00000211>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000214> (Jenny Craig diet)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000214> "Jenny Craig diet"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000214> <http://purl.obolibrary.org/obo/EATING_00000211>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000215> (Nutrisystem diet)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000215> "Nutrisystem diet"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000215> <http://purl.obolibrary.org/obo/EATING_00000211>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000216> (Weight Watchers diet)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000216> "Weight Watchers diet"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000216> <http://purl.obolibrary.org/obo/EATING_00000211>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000217> (paleo diet)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000217> "paleo diet"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000217> <http://purl.obolibrary.org/obo/EATING_00000148>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000218> (semi-vegetarian diet)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000218> "semi-vegetarian diet"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000218> <http://purl.obolibrary.org/obo/EATING_00000148>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000219> (flexitarian)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000219> "flexitarian"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000219> <http://purl.obolibrary.org/obo/EATING_00000218>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_0000022> (pastoralism process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_0000022> "pastoralism process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_0000022> <http://purl.obolibrary.org/obo/EATING_000009>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000220> (kangatarian)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000220> "kangatarian"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000220> <http://purl.obolibrary.org/obo/EATING_00000218>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000221> (pescetarian)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000221> "pescetarian"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000221> <http://purl.obolibrary.org/obo/EATING_00000218>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000222> (plant-based)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000222> "plant-based"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000222> <http://purl.obolibrary.org/obo/EATING_00000218>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000223> (south beach diet)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000223> "south beach diet"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000223> <http://purl.obolibrary.org/obo/EATING_00000148>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000224> (vegan diet)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000224> "vegan diet"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000224> <http://purl.obolibrary.org/obo/EATING_00000148>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000225> (vegetarian diet)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000225> "vegetarian diet"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000225> <http://purl.obolibrary.org/obo/EATING_00000148>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000226> (weight influencing diet)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000226> "weight influencing diet"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000226> <http://purl.obolibrary.org/obo/EATING_00000148>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000227> (ethically regulated eating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000227> "ethically regulated eating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000227> <http://purl.obolibrary.org/obo/EATING_00000046>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000228> (health-oriented eating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000228> "health-oriented eating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000228> <http://purl.obolibrary.org/obo/EATING_00000046>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000229> (image oriented eating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000229> "image oriented eating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000229> <http://purl.obolibrary.org/obo/EATING_00000046>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000230> (performance oriented eating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000230> "performance oriented eating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000230> <http://purl.obolibrary.org/obo/EATING_00000046>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000231> (religiously regulated eating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000231> "religiously regulated eating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000231> <http://purl.obolibrary.org/obo/EATING_00000046>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000232> (pescetarian eating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000232> "pescetarian eating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000232> <http://purl.obolibrary.org/obo/EATING_00000227>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000233> (plant-based eating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000233> "plant-based eating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000233> <http://purl.obolibrary.org/obo/EATING_00000227>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000234> (vegan eating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000234> "vegan eating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000234> <http://purl.obolibrary.org/obo/EATING_00000227>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000235> (vegetarian eating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000235> "vegetarian eating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000235> <http://purl.obolibrary.org/obo/EATING_00000227>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000236> (edenic eating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000236> "edenic eating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000236> <http://purl.obolibrary.org/obo/EATING_00000231>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000237> (halal eating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000237> "halal eating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000237> <http://purl.obolibrary.org/obo/EATING_00000231>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000238> (jane eating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000238> "jane eating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000238> <http://purl.obolibrary.org/obo/EATING_00000231>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000239> (kosher eating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000239> "kosher eating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000239> <http://purl.obolibrary.org/obo/EATING_00000231>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000240> (lacto-vegetarian eating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000240> "lacto-vegetarian eating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000240> <http://purl.obolibrary.org/obo/EATING_00000231>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000241> (self-regulated eating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000241> "self-regulated eating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000241> <http://purl.obolibrary.org/obo/EATING_00000046>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000242> (calorie counting behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000242> "calorie counting behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000242> <http://purl.obolibrary.org/obo/EATING_00000241>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000243> (physiologically self-regulated eating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000243> "physiologically self-regulated eating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000243> <http://purl.obolibrary.org/obo/EATING_00000241>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000244> (psychological eating behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000244> "psychological eating behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000244> <http://purl.obolibrary.org/obo/EATING_00000241>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000245> (after school snacking behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000245> "after school snacking behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000245> <http://purl.obolibrary.org/obo/EATING_00000043>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000246> (late night snacking behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000246> "late night snacking behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000246> <http://purl.obolibrary.org/obo/EATING_00000043>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000247> (mid-day snacking behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000247> "mid-day snacking behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000247> <http://purl.obolibrary.org/obo/EATING_00000043>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000248> (morning snacking behavior)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000248> "morning snacking behavior"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000248> <http://purl.obolibrary.org/obo/EATING_00000043>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000249> (digestion process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000249> "digestion process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000249> <http://purl.obolibrary.org/obo/EATING_000005>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000250> (involuntary food consumption)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000250> "involuntary food consumption"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000250> <http://purl.obolibrary.org/obo/EATING_000005>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000251> (voluntary food consumption)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000251> "voluntary food consumption"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000251> <http://purl.obolibrary.org/obo/EATING_000005>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000252> (chemical food digestion process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000252> "chemical food digestion process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000252> <http://purl.obolibrary.org/obo/EATING_00000249>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000253> (mechanical food digestion process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000253> "mechanical food digestion process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000253> <http://purl.obolibrary.org/obo/EATING_00000249>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000254> (chewing process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000254> "chewing process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000254> <http://purl.obolibrary.org/obo/EATING_00000253>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000255> (auto device recording)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000255> "auto device recording"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000255> <http://purl.obolibrary.org/obo/EATING_000006>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000257> (historical recall measurement method)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000257> "historical recall measurement method"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000257> <http://purl.obolibrary.org/obo/EATING_000006>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000258> (measurement method data types)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000258> "measurement method data types"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000258> <http://purl.obolibrary.org/obo/EATING_000006>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000259> (realtime logging measurement method)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000259> "realtime logging measurement method"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000259> <http://purl.obolibrary.org/obo/EATING_000006>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000260> (realtime monitoring measurement method)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000260> "realtime monitoring measurement method"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000260> <http://purl.obolibrary.org/obo/EATING_000006>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000261> (electronic/paper diary)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000261> "electronic/paper diary"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000261> <http://purl.obolibrary.org/obo/EATING_00000259>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000262> (pictured enhanced log)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000262> "pictured enhanced log"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000262> <http://purl.obolibrary.org/obo/EATING_00000259>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000263> (human log data type)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000263> "human log data type"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000263> <http://purl.obolibrary.org/obo/EATING_00000258>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000264> (image data type)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000264> "image data type"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000264> <http://purl.obolibrary.org/obo/EATING_00000258>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000265> (length of time data type)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000265> "length of time data type"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000265> <http://purl.obolibrary.org/obo/EATING_00000258>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000266> (sound data type)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000266> "sound data type"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000266> <http://purl.obolibrary.org/obo/EATING_00000258>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000267> (spectrographic data type)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000267> "spectrographic data type"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000267> <http://purl.obolibrary.org/obo/EATING_00000258>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000268> (time of day data type)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000268> "time of day data type"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000268> <http://purl.obolibrary.org/obo/EATING_00000258>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000269> (video data type)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000269> "video data type"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000269> <http://purl.obolibrary.org/obo/EATING_00000258>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000270> (calorie log data type)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000270> "calorie log data type"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000270> <http://purl.obolibrary.org/obo/EATING_00000263>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000271> (description log data type)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000271> "description log data type"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000271> <http://purl.obolibrary.org/obo/EATING_00000263>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000272> (weight log data type)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000272> "weight log data type"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000272> <http://purl.obolibrary.org/obo/EATING_00000263>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000273> (jaw sound recording device data type)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000273> "jaw sound recording device data type"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000273> <http://purl.obolibrary.org/obo/EATING_00000266>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000274> (physiological recording measurement methods)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000274> "physiological recording measurement methods"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000274> <http://purl.obolibrary.org/obo/EATING_00000255>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000275> (utensil enhanced recording measurement method)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000275> "utensil enhanced recording measurement method"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000275> <http://purl.obolibrary.org/obo/EATING_00000255>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000276> (video monitor measurement method)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000276> "video monitor measurement method"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000276> <http://purl.obolibrary.org/obo/EATING_00000255>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000277> (24 hour dietary recall measurement method)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000277> "24 hour dietary recall measurement method"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000277> <http://purl.obolibrary.org/obo/EATING_00000257>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000278> (food frequency questionnaire measurement method)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000278> "food frequency questionnaire measurement method"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000278> <http://purl.obolibrary.org/obo/EATING_00000257>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000279> (food consumption frequency)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000279> "food consumption frequency"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000279> <http://purl.obolibrary.org/obo/EATING_000007>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000280> (consumption of fast food frequency)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000280> "consumption of fast food frequency"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000280> <http://purl.obolibrary.org/obo/EATING_00000279>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000281> (consumption of frozen food frequency)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000281> "consumption of frozen food frequency"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000281> <http://purl.obolibrary.org/obo/EATING_00000279>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000282> (consumption of home-cooked meal frequency)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000282> "consumption of home-cooked meal frequency"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000282> <http://purl.obolibrary.org/obo/EATING_00000279>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000283> (number of meals eaten)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000283> "number of meals eaten"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000283> <http://purl.obolibrary.org/obo/EATING_00000279>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000284> (consumption of fried food frequency)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000284> "consumption of fried food frequency"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000284> <http://purl.obolibrary.org/obo/EATING_00000279>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000285> (consumption of red meat frequency)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000285> "consumption of red meat frequency"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000285> <http://purl.obolibrary.org/obo/EATING_00000279>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000286> (five meals/day)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000286> "five meals/day"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000286> <http://purl.obolibrary.org/obo/EATING_00000283>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000287> (four meals/day)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000287> "four meals/day"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000287> <http://purl.obolibrary.org/obo/EATING_00000283>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000288> (three meals/day)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000288> "three meals/day"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000288> <http://purl.obolibrary.org/obo/EATING_00000283>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000290> (one meal/day)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000290> "one meal/day"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000290> <http://purl.obolibrary.org/obo/EATING_00000283>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000291> (production process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000291> "production process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000291> obo:BFO_0000015)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000292> (food production process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000292> "food production process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000292> <http://purl.obolibrary.org/obo/EATING_00000291>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000293> (aquaculture process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000293> "aquaculture process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000293> <http://purl.obolibrary.org/obo/EATING_00000292>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000294> (cultivation process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000294> "cultivation process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000294> <http://purl.obolibrary.org/obo/EATING_00000292>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000295> (farming process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000295> "farming process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000295> <http://purl.obolibrary.org/obo/EATING_00000294>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000296> (co-operative farming process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000296> "co-operative farming process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000296> <http://purl.obolibrary.org/obo/EATING_00000295>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000297> (commercial farming process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000297> "commercial farming process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000297> <http://purl.obolibrary.org/obo/EATING_00000295>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000298> (crop rotation process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000298> "crop rotation process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000298> <http://purl.obolibrary.org/obo/EATING_00000295>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000299> (dairy farming process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000299> "dairy farming process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000299> <http://purl.obolibrary.org/obo/EATING_00000295>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000300> (gardening process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000300> "gardening process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000300> <http://purl.obolibrary.org/obo/EATING_00000295>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000301> (harvesting process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000301> "harvesting process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000301> <http://purl.obolibrary.org/obo/EATING_00000295>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000302> (irrigation farming process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000302> "irrigation farming process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000302> <http://purl.obolibrary.org/obo/EATING_00000295>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000303> (ley farming process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000303> "ley farming process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000303> <http://purl.obolibrary.org/obo/EATING_00000295>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000304> (plantation farming process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000304> "plantation farming process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000304> <http://purl.obolibrary.org/obo/EATING_00000295>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000305> (subsistence farming process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000305> "subsistence farming process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000305> <http://purl.obolibrary.org/obo/EATING_00000295>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000306> (commercial grain farming process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000306> "commercial grain farming process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000306> <http://purl.obolibrary.org/obo/EATING_00000297>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000307> (extensive commercial farming process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000307> "extensive commercial farming process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000307> <http://purl.obolibrary.org/obo/EATING_00000297>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000308> (intensive commercial farming process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000308> "intensive commercial farming process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000308> <http://purl.obolibrary.org/obo/EATING_00000297>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000309> (forestry farming process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000309> "forestry farming process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000309> <http://purl.obolibrary.org/obo/EATING_00000304>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_00000310> (shifting cultivation process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000310> "shifting cultivation process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_00000310> <http://purl.obolibrary.org/obo/EATING_00000305>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_000004> (acquisition process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_000004> "acquisition process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_000004> obo:BFO_0000015)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_000005> (consumption process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_000005> "consumption process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_000005> obo:BFO_0000015)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_000006> (food consumption measurement methods)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_000006> "food consumption measurement methods"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_000006> obo:BFO_0000015)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_000007> (food consumption time component)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_000007> "food consumption time component"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_000007> obo:BFO_0000015)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_000008> (food acquisition process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_000008> "food acquisition process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_000008> <http://purl.obolibrary.org/obo/EATING_000004>)
+
+# Class: <http://purl.obolibrary.org/obo/EATING_000009> (food procurement process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_000009> "food procurement process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EATING_000009> <http://purl.obolibrary.org/obo/EATING_000008>)
 )
+
