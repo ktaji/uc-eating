@@ -1,0 +1,1949 @@
+Prefix(:=<http://purl.obolibrary.org/obo/>)
+Prefix(dc:=<http://purl.org/dc/elements/1.1/>)
+Prefix(go:=<http://purl.obolibrary.org/obo/go#>)
+Prefix(iao:=<http://purl.obolibrary.org/obo/iao/>)
+Prefix(obo:=<http://purl.obolibrary.org/obo/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(cito:=<http://purl.org/spar/cito/>)
+Prefix(core:=<http://purl.obolibrary.org/obo/uberon/core#>)
+Prefix(doap:=<http://usefulinc.com/ns/doap#>)
+Prefix(foaf:=<http://xmlns.com/foaf/0.1/>)
+Prefix(obo2:=<http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(skos:=<http://www.w3.org/2004/02/skos/core#>)
+Prefix(core1:=<http://purl.obolibrary.org/obo/core#>)
+Prefix(swrla:=<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>)
+Prefix(terms:=<http://purl.org/dc/terms/>)
+Prefix(protege:=<http://protege.stanford.edu/plugins/owl/protege#>)
+Prefix(subsets:=<http://purl.obolibrary.org/obo/ro/subsets#>)
+Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
+Prefix(patterns:=<http://www.co-ode.org/patterns#>)
+Prefix(NCBITaxon:=<http://purl.obolibrary.org/obo/NCBITaxon#>)
+Prefix(oboInOwl1:=<ttp://www.geneontology.org/formats/oboInOwl#>)
+Prefix(ace_lexicon:=<http://attempto.ifi.uzh.ch/ace_lexicon#>)
+Prefix(insect-anatomy:=<http://purl.obolibrary.org/obo/uberon/insect-anatomy#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/>
+<http://purl.obolibrary.org/obo/eating/releases/2018-01-28/eating.owl>
+Import(<http://purl.obolibrary.org/obo/MF.owl>)
+Import(<http://purl.obolibrary.org/obo/ro/releases/2018-01-05b/ro.owl>)
+Import(<http://www.w3.org/2006/time#2016>)
+Import(<http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl>)
+
+Declaration(Class(obo:BFO_0000015))
+Declaration(Class(obo:EATING_00000000))
+Declaration(Class(obo:EATING_00000001))
+Declaration(Class(obo:EATING_00000002))
+Declaration(Class(obo:EATING_00000003))
+Declaration(Class(obo:EATING_00000016))
+Declaration(Class(obo:EATING_00000017))
+Declaration(Class(obo:EATING_00000018))
+Declaration(Class(obo:EATING_00000019))
+Declaration(Class(obo:EATING_00000023))
+Declaration(Class(obo:EATING_00000024))
+Declaration(Class(obo:EATING_00000025))
+Declaration(Class(obo:EATING_00000026))
+Declaration(Class(obo:EATING_00000027))
+Declaration(Class(obo:EATING_00000028))
+Declaration(Class(obo:EATING_000000289))
+Declaration(Class(obo:EATING_00000029))
+Declaration(Class(obo:EATING_00000030))
+Declaration(Class(obo:EATING_00000031))
+Declaration(Class(obo:EATING_00000032))
+Declaration(Class(obo:EATING_00000033))
+Declaration(Class(obo:EATING_00000034))
+Declaration(Class(obo:EATING_00000035))
+Declaration(Class(obo:EATING_00000036))
+Declaration(Class(obo:EATING_00000037))
+Declaration(Class(obo:EATING_00000038))
+Declaration(Class(obo:EATING_00000039))
+Declaration(Class(obo:EATING_00000040))
+Declaration(Class(obo:EATING_00000041))
+Declaration(Class(obo:EATING_00000042))
+Declaration(Class(obo:EATING_00000043))
+Declaration(Class(obo:EATING_00000044))
+Declaration(Class(obo:EATING_00000045))
+Declaration(Class(obo:EATING_00000046))
+Declaration(Class(obo:EATING_00000047))
+Declaration(Class(obo:EATING_00000048))
+Declaration(Class(obo:EATING_00000049))
+Declaration(Class(obo:EATING_00000050))
+Declaration(Class(obo:EATING_00000051))
+Declaration(Class(obo:EATING_00000052))
+Declaration(Class(obo:EATING_00000053))
+Declaration(Class(obo:EATING_00000054))
+Declaration(Class(obo:EATING_00000055))
+Declaration(Class(obo:EATING_00000056))
+Declaration(Class(obo:EATING_00000057))
+Declaration(Class(obo:EATING_00000058))
+Declaration(Class(obo:EATING_00000059))
+Declaration(Class(obo:EATING_00000060))
+Declaration(Class(obo:EATING_00000061))
+Declaration(Class(obo:EATING_00000062))
+Declaration(Class(obo:EATING_00000063))
+Declaration(Class(obo:EATING_00000064))
+Declaration(Class(obo:EATING_00000065))
+Declaration(Class(obo:EATING_00000066))
+Declaration(Class(obo:EATING_00000067))
+Declaration(Class(obo:EATING_00000068))
+Declaration(Class(obo:EATING_00000069))
+Declaration(Class(obo:EATING_00000070))
+Declaration(Class(obo:EATING_00000071))
+Declaration(Class(obo:EATING_00000072))
+Declaration(Class(obo:EATING_00000073))
+Declaration(Class(obo:EATING_00000074))
+Declaration(Class(obo:EATING_00000075))
+Declaration(Class(obo:EATING_00000076))
+Declaration(Class(obo:EATING_00000077))
+Declaration(Class(obo:EATING_00000078))
+Declaration(Class(obo:EATING_00000079))
+Declaration(Class(obo:EATING_00000080))
+Declaration(Class(obo:EATING_00000081))
+Declaration(Class(obo:EATING_00000082))
+Declaration(Class(obo:EATING_00000083))
+Declaration(Class(obo:EATING_00000084))
+Declaration(Class(obo:EATING_00000085))
+Declaration(Class(obo:EATING_00000086))
+Declaration(Class(obo:EATING_00000087))
+Declaration(Class(obo:EATING_00000088))
+Declaration(Class(obo:EATING_00000089))
+Declaration(Class(obo:EATING_00000090))
+Declaration(Class(obo:EATING_00000092))
+Declaration(Class(obo:EATING_00000093))
+Declaration(Class(obo:EATING_00000094))
+Declaration(Class(obo:EATING_00000095))
+Declaration(Class(obo:EATING_00000096))
+Declaration(Class(obo:EATING_00000097))
+Declaration(Class(obo:EATING_00000098))
+Declaration(Class(obo:EATING_00000099))
+Declaration(Class(obo:EATING_0000010))
+Declaration(Class(obo:EATING_00000100))
+Declaration(Class(obo:EATING_00000101))
+Declaration(Class(obo:EATING_00000102))
+Declaration(Class(obo:EATING_00000103))
+Declaration(Class(obo:EATING_00000104))
+Declaration(Class(obo:EATING_00000105))
+Declaration(Class(obo:EATING_00000106))
+Declaration(Class(obo:EATING_00000107))
+Declaration(Class(obo:EATING_00000108))
+Declaration(Class(obo:EATING_00000109))
+Declaration(Class(obo:EATING_0000011))
+Declaration(Class(obo:EATING_00000111))
+Declaration(Class(obo:EATING_00000112))
+Declaration(Class(obo:EATING_00000113))
+Declaration(Class(obo:EATING_00000114))
+Declaration(Class(obo:EATING_00000115))
+Declaration(Class(obo:EATING_00000116))
+Declaration(Class(obo:EATING_00000117))
+Declaration(Class(obo:EATING_00000118))
+Declaration(Class(obo:EATING_00000119))
+Declaration(Class(obo:EATING_0000012))
+Declaration(Class(obo:EATING_00000120))
+Declaration(Class(obo:EATING_00000121))
+Declaration(Class(obo:EATING_00000122))
+Declaration(Class(obo:EATING_00000123))
+Declaration(Class(obo:EATING_00000124))
+Declaration(Class(obo:EATING_00000125))
+Declaration(Class(obo:EATING_00000127))
+Declaration(Class(obo:EATING_00000128))
+Declaration(Class(obo:EATING_00000129))
+Declaration(Class(obo:EATING_0000013))
+Declaration(Class(obo:EATING_00000130))
+Declaration(Class(obo:EATING_00000131))
+Declaration(Class(obo:EATING_00000133))
+Declaration(Class(obo:EATING_00000134))
+Declaration(Class(obo:EATING_00000135))
+Declaration(Class(obo:EATING_00000136))
+Declaration(Class(obo:EATING_00000137))
+Declaration(Class(obo:EATING_00000138))
+Declaration(Class(obo:EATING_00000139))
+Declaration(Class(obo:EATING_0000014))
+Declaration(Class(obo:EATING_00000140))
+Declaration(Class(obo:EATING_00000141))
+Declaration(Class(obo:EATING_00000142))
+Declaration(Class(obo:EATING_00000143))
+Declaration(Class(obo:EATING_00000144))
+Declaration(Class(obo:EATING_00000145))
+Declaration(Class(obo:EATING_00000146))
+Declaration(Class(obo:EATING_00000147))
+Declaration(Class(obo:EATING_00000148))
+Declaration(Class(obo:EATING_00000149))
+Declaration(Class(obo:EATING_0000015))
+Declaration(Class(obo:EATING_00000150))
+Declaration(Class(obo:EATING_00000151))
+Declaration(Class(obo:EATING_00000152))
+Declaration(Class(obo:EATING_00000153))
+Declaration(Class(obo:EATING_00000154))
+Declaration(Class(obo:EATING_00000155))
+Declaration(Class(obo:EATING_00000156))
+Declaration(Class(obo:EATING_00000158))
+Declaration(Class(obo:EATING_00000159))
+Declaration(Class(obo:EATING_00000160))
+Declaration(Class(obo:EATING_00000161))
+Declaration(Class(obo:EATING_00000162))
+Declaration(Class(obo:EATING_00000163))
+Declaration(Class(obo:EATING_00000164))
+Declaration(Class(obo:EATING_00000165))
+Declaration(Class(obo:EATING_00000166))
+Declaration(Class(obo:EATING_00000167))
+Declaration(Class(obo:EATING_00000168))
+Declaration(Class(obo:EATING_00000169))
+Declaration(Class(obo:EATING_00000170))
+Declaration(Class(obo:EATING_00000171))
+Declaration(Class(obo:EATING_00000172))
+Declaration(Class(obo:EATING_00000173))
+Declaration(Class(obo:EATING_00000174))
+Declaration(Class(obo:EATING_00000175))
+Declaration(Class(obo:EATING_00000176))
+Declaration(Class(obo:EATING_00000178))
+Declaration(Class(obo:EATING_00000179))
+Declaration(Class(obo:EATING_00000180))
+Declaration(Class(obo:EATING_00000181))
+Declaration(Class(obo:EATING_00000182))
+Declaration(Class(obo:EATING_00000183))
+Declaration(Class(obo:EATING_00000184))
+Declaration(Class(obo:EATING_00000185))
+Declaration(Class(obo:EATING_00000186))
+Declaration(Class(obo:EATING_00000187))
+Declaration(Class(obo:EATING_00000188))
+Declaration(Class(obo:EATING_00000189))
+Declaration(Class(obo:EATING_00000190))
+Declaration(Class(obo:EATING_00000191))
+Declaration(Class(obo:EATING_00000192))
+Declaration(Class(obo:EATING_00000193))
+Declaration(Class(obo:EATING_00000194))
+Declaration(Class(obo:EATING_00000195))
+Declaration(Class(obo:EATING_00000196))
+Declaration(Class(obo:EATING_00000197))
+Declaration(Class(obo:EATING_00000198))
+Declaration(Class(obo:EATING_00000199))
+Declaration(Class(obo:EATING_0000020))
+Declaration(Class(obo:EATING_00000200))
+Declaration(Class(obo:EATING_00000201))
+Declaration(Class(obo:EATING_00000202))
+Declaration(Class(obo:EATING_00000203))
+Declaration(Class(obo:EATING_00000204))
+Declaration(Class(obo:EATING_00000205))
+Declaration(Class(obo:EATING_00000206))
+Declaration(Class(obo:EATING_00000207))
+Declaration(Class(obo:EATING_00000208))
+Declaration(Class(obo:EATING_00000209))
+Declaration(Class(obo:EATING_0000021))
+Declaration(Class(obo:EATING_00000210))
+Declaration(Class(obo:EATING_00000211))
+Declaration(Class(obo:EATING_00000213))
+Declaration(Class(obo:EATING_00000214))
+Declaration(Class(obo:EATING_00000215))
+Declaration(Class(obo:EATING_00000216))
+Declaration(Class(obo:EATING_00000217))
+Declaration(Class(obo:EATING_00000218))
+Declaration(Class(obo:EATING_00000219))
+Declaration(Class(obo:EATING_0000022))
+Declaration(Class(obo:EATING_00000220))
+Declaration(Class(obo:EATING_00000221))
+Declaration(Class(obo:EATING_00000222))
+Declaration(Class(obo:EATING_00000223))
+Declaration(Class(obo:EATING_00000224))
+Declaration(Class(obo:EATING_00000225))
+Declaration(Class(obo:EATING_00000226))
+Declaration(Class(obo:EATING_00000227))
+Declaration(Class(obo:EATING_00000228))
+Declaration(Class(obo:EATING_00000229))
+Declaration(Class(obo:EATING_00000230))
+Declaration(Class(obo:EATING_00000231))
+Declaration(Class(obo:EATING_00000232))
+Declaration(Class(obo:EATING_00000233))
+Declaration(Class(obo:EATING_00000234))
+Declaration(Class(obo:EATING_00000235))
+Declaration(Class(obo:EATING_00000236))
+Declaration(Class(obo:EATING_00000237))
+Declaration(Class(obo:EATING_00000238))
+Declaration(Class(obo:EATING_00000239))
+Declaration(Class(obo:EATING_00000240))
+Declaration(Class(obo:EATING_00000241))
+Declaration(Class(obo:EATING_00000242))
+Declaration(Class(obo:EATING_00000243))
+Declaration(Class(obo:EATING_00000244))
+Declaration(Class(obo:EATING_00000245))
+Declaration(Class(obo:EATING_00000246))
+Declaration(Class(obo:EATING_00000247))
+Declaration(Class(obo:EATING_00000248))
+Declaration(Class(obo:EATING_00000249))
+Declaration(Class(obo:EATING_00000250))
+Declaration(Class(obo:EATING_00000251))
+Declaration(Class(obo:EATING_00000252))
+Declaration(Class(obo:EATING_00000253))
+Declaration(Class(obo:EATING_00000254))
+Declaration(Class(obo:EATING_00000255))
+Declaration(Class(obo:EATING_00000257))
+Declaration(Class(obo:EATING_00000258))
+Declaration(Class(obo:EATING_00000259))
+Declaration(Class(obo:EATING_00000260))
+Declaration(Class(obo:EATING_00000261))
+Declaration(Class(obo:EATING_00000262))
+Declaration(Class(obo:EATING_00000263))
+Declaration(Class(obo:EATING_00000264))
+Declaration(Class(obo:EATING_00000265))
+Declaration(Class(obo:EATING_00000266))
+Declaration(Class(obo:EATING_00000267))
+Declaration(Class(obo:EATING_00000268))
+Declaration(Class(obo:EATING_00000269))
+Declaration(Class(obo:EATING_00000270))
+Declaration(Class(obo:EATING_00000271))
+Declaration(Class(obo:EATING_00000272))
+Declaration(Class(obo:EATING_00000273))
+Declaration(Class(obo:EATING_00000274))
+Declaration(Class(obo:EATING_00000275))
+Declaration(Class(obo:EATING_00000276))
+Declaration(Class(obo:EATING_00000277))
+Declaration(Class(obo:EATING_00000278))
+Declaration(Class(obo:EATING_00000279))
+Declaration(Class(obo:EATING_00000280))
+Declaration(Class(obo:EATING_00000281))
+Declaration(Class(obo:EATING_00000282))
+Declaration(Class(obo:EATING_00000283))
+Declaration(Class(obo:EATING_00000284))
+Declaration(Class(obo:EATING_00000285))
+Declaration(Class(obo:EATING_00000286))
+Declaration(Class(obo:EATING_00000287))
+Declaration(Class(obo:EATING_00000288))
+Declaration(Class(obo:EATING_00000290))
+Declaration(Class(obo:EATING_00000291))
+Declaration(Class(obo:EATING_00000292))
+Declaration(Class(obo:EATING_00000293))
+Declaration(Class(obo:EATING_00000294))
+Declaration(Class(obo:EATING_00000295))
+Declaration(Class(obo:EATING_00000296))
+Declaration(Class(obo:EATING_00000297))
+Declaration(Class(obo:EATING_00000298))
+Declaration(Class(obo:EATING_00000299))
+Declaration(Class(obo:EATING_00000300))
+Declaration(Class(obo:EATING_00000301))
+Declaration(Class(obo:EATING_00000302))
+Declaration(Class(obo:EATING_00000303))
+Declaration(Class(obo:EATING_00000304))
+Declaration(Class(obo:EATING_00000305))
+Declaration(Class(obo:EATING_00000306))
+Declaration(Class(obo:EATING_00000307))
+Declaration(Class(obo:EATING_00000308))
+Declaration(Class(obo:EATING_00000309))
+Declaration(Class(obo:EATING_00000310))
+Declaration(Class(obo:EATING_000004))
+Declaration(Class(obo:EATING_000005))
+Declaration(Class(obo:EATING_000006))
+Declaration(Class(obo:EATING_000007))
+Declaration(Class(obo:EATING_000008))
+Declaration(Class(obo:EATING_000009))
+Declaration(Class(obo:GO_0008150))
+Declaration(Class(obo:eating_influenced_by_adrenaline))
+Declaration(Class(obo:eating_influenced_by_fear))
+Declaration(Class(obo:eating_influenced_by_hunger))
+Declaration(Class(obo:eating_influenced_by_love))
+Declaration(Class(obo:eating_influenced_by_pain))
+Declaration(Class(obo:eating_influenced_by_temperature))
+Declaration(Class(obo:eating_influenced_by_thirst))
+Declaration(Class(obo:eating_motivated_by_attention))
+Declaration(Class(obo:eating_motivated_by_fame))
+Declaration(Class(obo:eating_motivated_by_feelings_of_accomplishment))
+Declaration(Class(obo:eating_motivated_by_feelings_of_curiosity))
+Declaration(Class(obo:eating_motivated_by_feelings_of_enjoyment))
+Declaration(Class(obo:eating_motivated_by_feelings_of_happiness))
+Declaration(Class(obo:eating_motivated_by_feelings_of_pleasure))
+Declaration(Class(obo:eating_motivated_by_feelings_of_pride))
+Declaration(Class(obo:eating_motivated_by_praise))
+Declaration(Class(obo:eating_motivated_by_reward))
+
+
+############################
+#   Classes
+############################
+
+# Class: obo:EATING_00000000 (motivation process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000000 "motivation process"@en)
+SubClassOf(obo:EATING_00000000 obo:EATING_00000017)
+
+# Class: obo:EATING_00000001 (eating influenced by external stimuli)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000001 "eating influenced by external stimuli"@en)
+SubClassOf(obo:EATING_00000001 obo:EATING_00000000)
+
+# Class: obo:EATING_00000002 (eating influenced by internal stimuli)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000002 "eating influenced by internal stimuli"@en)
+SubClassOf(obo:EATING_00000002 obo:EATING_00000000)
+
+# Class: obo:EATING_00000003 (extrinsic motivation process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000003 "extrinsic motivation process"@en)
+SubClassOf(obo:EATING_00000003 obo:EATING_00000000)
+
+# Class: obo:EATING_00000016 (behavior process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000016 "behavior process"@en)
+SubClassOf(obo:EATING_00000016 obo:GO_0008150)
+
+# Class: obo:EATING_00000017 (mental process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000017 "mental process"@en)
+SubClassOf(obo:EATING_00000017 obo:GO_0008150)
+
+# Class: obo:EATING_00000018 (intrinsic motivation process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000018 "intrinsic motivation process"@en)
+SubClassOf(obo:EATING_00000018 obo:EATING_00000000)
+
+# Class: obo:EATING_00000019 (consumption behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000019 "consumption behavior"@en)
+SubClassOf(obo:EATING_00000019 obo:EATING_00000016)
+
+# Class: obo:EATING_00000023 (physical food preparement process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000023 "physical food preparement process"@en)
+SubClassOf(obo:EATING_00000023 obo:EATING_00000016)
+
+# Class: obo:EATING_00000024 (coring process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000024 "coring process"@en)
+SubClassOf(obo:EATING_00000024 obo:EATING_00000023)
+
+# Class: obo:EATING_00000025 (cutting process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000025 "cutting process"@en)
+SubClassOf(obo:EATING_00000025 obo:EATING_00000023)
+
+# Class: obo:EATING_00000026 (dehusking process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000026 "dehusking process"@en)
+SubClassOf(obo:EATING_00000026 obo:EATING_00000023)
+
+# Class: obo:EATING_00000027 (peeling process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000027 "peeling process"@en)
+SubClassOf(obo:EATING_00000027 obo:EATING_00000023)
+
+# Class: obo:EATING_00000028 (pit removal process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000028 "pit removal process"@en)
+SubClassOf(obo:EATING_00000028 obo:EATING_00000023)
+
+# Class: obo:EATING_000000289 (two meals/day)
+
+AnnotationAssertion(rdfs:label obo:EATING_000000289 "two meals/day"@en)
+SubClassOf(obo:EATING_000000289 obo:EATING_00000283)
+
+# Class: obo:EATING_00000029 (slicing process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000029 "slicing process"@en)
+SubClassOf(obo:EATING_00000029 obo:EATING_00000023)
+
+# Class: obo:EATING_00000030 (feeding behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000030 "feeding behavior"@en)
+SubClassOf(obo:EATING_00000030 obo:EATING_00000019)
+
+# Class: obo:EATING_00000031 (diet restriction behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000031 "diet restriction behavior"@en)
+SubClassOf(obo:EATING_00000031 obo:EATING_00000030)
+
+# Class: obo:EATING_00000032 (eating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000032 "eating behavior"@en)
+SubClassOf(obo:EATING_00000032 obo:EATING_00000030)
+
+# Class: obo:EATING_00000033 (calorie restriction behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000033 "calorie restriction behavior"@en)
+SubClassOf(obo:EATING_00000033 obo:EATING_00000031)
+
+# Class: obo:EATING_00000034 (diet restriction avoidance)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000034 "diet restriction avoidance"@en)
+SubClassOf(obo:EATING_00000034 obo:EATING_00000031)
+
+# Class: obo:EATING_00000035 (micronutrient restriction behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000035 "micronutrient restriction behavior"@en)
+SubClassOf(obo:EATING_00000035 obo:EATING_00000031)
+
+# Class: obo:EATING_00000036 (time based restriction diet)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000036 "time based restriction diet"@en)
+SubClassOf(obo:EATING_00000036 obo:EATING_00000031)
+
+# Class: obo:EATING_00000037 (carboyhdrate restriction behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000037 "carboyhdrate restriction behavior"@en)
+SubClassOf(obo:EATING_00000037 obo:EATING_00000035)
+
+# Class: obo:EATING_00000038 (fat restriction behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000038 "fat restriction behavior"@en)
+SubClassOf(obo:EATING_00000038 obo:EATING_00000035)
+
+# Class: obo:EATING_00000039 (protein restriction behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000039 "protein restriction behavior"@en)
+SubClassOf(obo:EATING_00000039 obo:EATING_00000035)
+
+# Class: obo:EATING_00000040 (swallowing behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000040 "swallowing behavior"@en)
+SubClassOf(obo:EATING_00000040 obo:EATING_00000032)
+
+# Class: obo:EATING_00000041 (suckling behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000041 "suckling behavior"@en)
+SubClassOf(obo:EATING_00000041 obo:EATING_00000032)
+
+# Class: obo:EATING_00000042 (spitting behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000042 "spitting behavior"@en)
+SubClassOf(obo:EATING_00000042 obo:EATING_00000032)
+
+# Class: obo:EATING_00000043 (snacking behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000043 "snacking behavior"@en)
+SubClassOf(obo:EATING_00000043 obo:EATING_00000032)
+
+# Class: obo:EATING_00000044 (slurping behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000044 "slurping behavior"@en)
+SubClassOf(obo:EATING_00000044 obo:EATING_00000032)
+
+# Class: obo:EATING_00000045 (sipping behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000045 "sipping behavior"@en)
+SubClassOf(obo:EATING_00000045 obo:EATING_00000032)
+
+# Class: obo:EATING_00000046 (regulated eating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000046 "regulated eating behavior"@en)
+SubClassOf(obo:EATING_00000046 obo:EATING_00000032)
+
+# Class: obo:EATING_00000047 (meal eating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000047 "meal eating behavior"@en)
+SubClassOf(obo:EATING_00000047 obo:EATING_00000032)
+
+# Class: obo:EATING_00000048 (licking behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000048 "licking behavior"@en)
+SubClassOf(obo:EATING_00000048 obo:EATING_00000032)
+
+# Class: obo:EATING_00000049 (eating session length)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000049 "eating session length"@en)
+SubClassOf(obo:EATING_00000049 obo:EATING_00000032)
+
+# Class: obo:EATING_00000050 (eating comcomitant with other behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000050 "eating comcomitant with other behavior"@en)
+SubClassOf(obo:EATING_00000050 obo:EATING_00000032)
+
+# Class: obo:EATING_00000051 (drinking behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000051 "drinking behavior"@en)
+SubClassOf(obo:EATING_00000051 obo:EATING_00000032)
+
+# Class: obo:EATING_00000052 (chewing behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000052 "chewing behavior"@en)
+SubClassOf(obo:EATING_00000052 obo:EATING_00000032)
+
+# Class: obo:EATING_00000053 (breastfeeding behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000053 "breastfeeding behavior"@en)
+SubClassOf(obo:EATING_00000053 obo:EATING_00000032)
+
+# Class: obo:EATING_00000054 (eating influenced by sound)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000054 "eating influenced by sound"@en)
+SubClassOf(obo:EATING_00000054 obo:EATING_00000001)
+
+# Class: obo:EATING_00000055 (alcohol avoidance)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000055 "alcohol avoidance"@en)
+SubClassOf(obo:EATING_00000055 obo:EATING_00000034)
+
+# Class: obo:EATING_00000056 (caffeine voidance)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000056 "caffeine voidance"@en)
+SubClassOf(obo:EATING_00000056 obo:EATING_00000034)
+
+# Class: obo:EATING_00000057 (cruciferous vegetables voidance)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000057 "cruciferous vegetables voidance"@en)
+SubClassOf(obo:EATING_00000057 obo:EATING_00000034)
+
+# Class: obo:EATING_00000058 (dairy voidance)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000058 "dairy voidance"@en)
+SubClassOf(obo:EATING_00000058 obo:EATING_00000034)
+
+# Class: obo:EATING_00000059 (spicy food voidance)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000059 "spicy food voidance"@en)
+SubClassOf(obo:EATING_00000059 obo:EATING_00000034)
+
+# Class: obo:EATING_00000060 (breastfeeding influenced by internal stimuli)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000060 "breastfeeding influenced by internal stimuli"@en)
+SubClassOf(obo:EATING_00000060 obo:EATING_00000053)
+
+# Class: obo:EATING_00000061 (breastfeeding influenced by external stimuli)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000061 "breastfeeding influenced by external stimuli"@en)
+SubClassOf(obo:EATING_00000061 obo:EATING_00000053)
+
+# Class: obo:EATING_00000062 (breastfeeding influenced by activity)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000062 "breastfeeding influenced by activity"@en)
+SubClassOf(obo:EATING_00000062 obo:EATING_00000060)
+
+# Class: obo:EATING_00000063 (breastfeeding influenced by age)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000063 "breastfeeding influenced by age"@en)
+SubClassOf(obo:EATING_00000063 obo:EATING_00000060)
+
+# Class: obo:EATING_00000064 (breastfeeding influenced by FIL)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000064 "breastfeeding influenced by FIL"@en)
+SubClassOf(obo:EATING_00000064 obo:EATING_00000060)
+
+# Class: obo:EATING_00000065 (breastfeeding influenced by guilt)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000065 "breastfeeding influenced by guilt"@en)
+SubClassOf(obo:EATING_00000065 obo:EATING_00000060)
+
+# Class: obo:EATING_00000066 (breastfeeding influenced by history of abuse)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000066 "breastfeeding influenced by history of abuse"@en)
+SubClassOf(obo:EATING_00000066 obo:EATING_00000060)
+
+# Class: obo:EATING_00000067 (breastfeeding influenced by hypoplasia of mammary gland)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000067 "breastfeeding influenced by hypoplasia of mammary gland"@en)
+SubClassOf(obo:EATING_00000067 obo:EATING_00000060)
+
+# Class: obo:EATING_00000068 (breastfeeding influenced by lack of milk)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000068 "breastfeeding influenced by lack of milk"@en)
+SubClassOf(obo:EATING_00000068 obo:EATING_00000060)
+
+# Class: obo:EATING_00000069 (breastfeeding influenced by mastitis)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000069 "breastfeeding influenced by mastitis"@en)
+SubClassOf(obo:EATING_00000069 obo:EATING_00000060)
+
+# Class: obo:EATING_00000070 (breastfeeding influenced by metabolic/disease state)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000070 "breastfeeding influenced by metabolic/disease state"@en)
+SubClassOf(obo:EATING_00000070 obo:EATING_00000060)
+
+# Class: obo:EATING_00000071 (breastfeeding influenced by pain)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000071 "breastfeeding influenced by pain"@en)
+SubClassOf(obo:EATING_00000071 obo:EATING_00000060)
+
+# Class: obo:EATING_00000072 (breastfeeding influenced by acess)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000072 "breastfeeding influenced by acess"@en)
+SubClassOf(obo:EATING_00000072 obo:EATING_00000061)
+
+# Class: obo:EATING_00000073 (breastfeeding influenced by chemotherapy)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000073 "breastfeeding influenced by chemotherapy"@en)
+SubClassOf(obo:EATING_00000073 obo:EATING_00000061)
+
+# Class: obo:EATING_00000074 (breastfeeding influenced by convenience)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000074 "breastfeeding influenced by convenience"@en)
+SubClassOf(obo:EATING_00000074 obo:EATING_00000061)
+
+# Class: obo:EATING_00000075 (breastfeeding influenced by culture)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000075 "breastfeeding influenced by culture"@en)
+SubClassOf(obo:EATING_00000075 obo:EATING_00000061)
+
+# Class: obo:EATING_00000076 (breastfeeding influenced by environment)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000076 "breastfeeding influenced by environment"@en)
+SubClassOf(obo:EATING_00000076 obo:EATING_00000061)
+
+# Class: obo:EATING_00000077 (breastfeeding influenced by equipment)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000077 "breastfeeding influenced by equipment"@en)
+SubClassOf(obo:EATING_00000077 obo:EATING_00000061)
+
+# Class: obo:EATING_00000078 (breastfeeding influenced by family support)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000078 "breastfeeding influenced by family support"@en)
+SubClassOf(obo:EATING_00000078 obo:EATING_00000061)
+
+# Class: obo:EATING_00000079 (breastfeeding influenced by place)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000079 "breastfeeding influenced by place"@en)
+SubClassOf(obo:EATING_00000079 obo:EATING_00000061)
+
+# Class: obo:EATING_00000080 (breastfeeding influenced by radiation)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000080 "breastfeeding influenced by radiation"@en)
+SubClassOf(obo:EATING_00000080 obo:EATING_00000061)
+
+# Class: obo:EATING_00000081 (breastfeeding influenced by separation)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000081 "breastfeeding influenced by separation"@en)
+SubClassOf(obo:EATING_00000081 obo:EATING_00000061)
+
+# Class: obo:EATING_00000082 (breastfeeding influenced by time)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000082 "breastfeeding influenced by time"@en)
+SubClassOf(obo:EATING_00000082 obo:EATING_00000061)
+
+# Class: obo:EATING_00000083 (breastfeeding influenced by schedule)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000083 "breastfeeding influenced by schedule"@en)
+SubClassOf(obo:EATING_00000083 obo:EATING_00000061)
+
+# Class: obo:EATING_00000084 (breastfeeding influenced by allowability)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000084 "breastfeeding influenced by allowability"@en)
+SubClassOf(obo:EATING_00000084 obo:EATING_00000072)
+
+# Class: obo:EATING_00000085 (breastfeeding influenced by economic status)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000085 "breastfeeding influenced by economic status"@en)
+SubClassOf(obo:EATING_00000085 obo:EATING_00000072)
+
+# Class: obo:EATING_00000086 (breastfeeding influenced by geography)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000086 "breastfeeding influenced by geography"@en)
+SubClassOf(obo:EATING_00000086 obo:EATING_00000072)
+
+# Class: obo:EATING_00000087 (breastfeeding influenced by society)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000087 "breastfeeding influenced by society"@en)
+SubClassOf(obo:EATING_00000087 obo:EATING_00000072)
+
+# Class: obo:EATING_00000088 (breastfeeding influenced by age)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000088 "breastfeeding influenced by age"@en)
+SubClassOf(obo:EATING_00000088 obo:EATING_00000084)
+
+# Class: obo:EATING_00000089 (breastfeeding influenced by race)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000089 "breastfeeding influenced by race"@en)
+SubClassOf(obo:EATING_00000089 obo:EATING_00000084)
+
+# Class: obo:EATING_00000090 (breastfeeding influenced by religion)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000090 "breastfeeding influenced by religion"@en)
+SubClassOf(obo:EATING_00000090 obo:EATING_00000084)
+
+# Class: obo:EATING_00000092 (eating influenced by socio-cultural stimuli)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000092 "eating influenced by socio-cultural stimuli"@en)
+SubClassOf(obo:EATING_00000092 obo:EATING_00000001)
+
+# Class: obo:EATING_00000093 (eating influenced by smell)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000093 "eating influenced by smell"@en)
+SubClassOf(obo:EATING_00000093 obo:EATING_00000001)
+
+# Class: obo:EATING_00000094 (eating influenced by regulation)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000094 "eating influenced by regulation"@en)
+SubClassOf(obo:EATING_00000094 obo:EATING_00000001)
+
+# Class: obo:EATING_00000095 (eating influenced by media)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000095 "eating influenced by media"@en)
+SubClassOf(obo:EATING_00000095 obo:EATING_00000001)
+
+# Class: obo:EATING_00000096 (eating influenced by geography)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000096 "eating influenced by geography"@en)
+SubClassOf(obo:EATING_00000096 obo:EATING_00000001)
+
+# Class: obo:EATING_00000097 (eating influenced by food environment)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000097 "eating influenced by food environment"@en)
+SubClassOf(obo:EATING_00000097 obo:EATING_00000001)
+
+# Class: obo:EATING_00000098 (eating influenced by familial pressure)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000098 "eating influenced by familial pressure"@en)
+SubClassOf(obo:EATING_00000098 obo:EATING_00000001)
+
+# Class: obo:EATING_00000099 (eating influenced by appearance)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000099 "eating influenced by appearance"@en)
+SubClassOf(obo:EATING_00000099 obo:EATING_00000001)
+
+# Class: obo:EATING_0000010 (fishing process)
+
+AnnotationAssertion(rdfs:label obo:EATING_0000010 "fishing process"@en)
+SubClassOf(obo:EATING_0000010 obo:EATING_000009)
+
+# Class: obo:EATING_00000100 (eating influenced by accessibility)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000100 "eating influenced by accessibility"@en)
+SubClassOf(obo:EATING_00000100 obo:EATING_00000001)
+
+# Class: obo:EATING_00000101 (eating influenced by transportation)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000101 "eating influenced by transportation"@en)
+SubClassOf(obo:EATING_00000101 obo:EATING_00000100)
+
+# Class: obo:EATING_00000102 (eating influenced by availability)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000102 "eating influenced by availability"@en)
+SubClassOf(obo:EATING_00000102 obo:EATING_00000100)
+
+# Class: obo:EATING_00000103 (eating influenced by economics)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000103 "eating influenced by economics"@en)
+SubClassOf(obo:EATING_00000103 obo:EATING_00000100)
+
+# Class: obo:EATING_00000104 (eating influenced by home environment)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000104 "eating influenced by home environment"@en)
+SubClassOf(obo:EATING_00000104 obo:EATING_00000097)
+
+# Class: obo:EATING_00000105 (eating influenced by social environment)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000105 "eating influenced by social environment"@en)
+SubClassOf(obo:EATING_00000105 obo:EATING_00000097)
+
+# Class: obo:EATING_00000106 (eating influenced by school environment)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000106 "eating influenced by school environment"@en)
+SubClassOf(obo:EATING_00000106 obo:EATING_00000097)
+
+# Class: obo:EATING_00000107 (eating influenced by work environment)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000107 "eating influenced by work environment"@en)
+SubClassOf(obo:EATING_00000107 obo:EATING_00000097)
+
+# Class: obo:EATING_00000108 (eating influenced by broadcast media)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000108 "eating influenced by broadcast media"@en)
+SubClassOf(obo:EATING_00000108 obo:EATING_00000095)
+
+# Class: obo:EATING_00000109 (eating influenced by mass media)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000109 "eating influenced by mass media"@en)
+SubClassOf(obo:EATING_00000109 obo:EATING_00000095)
+
+# Class: obo:EATING_0000011 (gathering process)
+
+AnnotationAssertion(rdfs:label obo:EATING_0000011 "gathering process"@en)
+SubClassOf(obo:EATING_0000011 obo:EATING_000009)
+
+# Class: obo:EATING_00000111 (eating influenced by print media)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000111 "eating influenced by print media"@en)
+SubClassOf(obo:EATING_00000111 obo:EATING_00000095)
+
+# Class: obo:EATING_00000112 (eating influenced by social media)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000112 "eating influenced by social media"@en)
+SubClassOf(obo:EATING_00000112 obo:EATING_00000095)
+
+# Class: obo:EATING_00000113 (eating influenced by Facebook)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000113 "eating influenced by Facebook"@en)
+SubClassOf(obo:EATING_00000113 obo:EATING_00000112)
+
+# Class: obo:EATING_00000114 (eating influenced by Instagram)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000114 "eating influenced by Instagram"@en)
+SubClassOf(obo:EATING_00000114 obo:EATING_00000112)
+
+# Class: obo:EATING_00000115 (eating influenced by Pinterest)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000115 "eating influenced by Pinterest"@en)
+SubClassOf(obo:EATING_00000115 obo:EATING_00000112)
+
+# Class: obo:EATING_00000116 (eating influenced by Snapchat)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000116 "eating influenced by Snapchat"@en)
+SubClassOf(obo:EATING_00000116 obo:EATING_00000112)
+
+# Class: obo:EATING_00000117 (eating influenced by Tumblr)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000117 "eating influenced by Tumblr"@en)
+SubClassOf(obo:EATING_00000117 obo:EATING_00000112)
+
+# Class: obo:EATING_00000118 (eating influenced by Twitter)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000118 "eating influenced by Twitter"@en)
+SubClassOf(obo:EATING_00000118 obo:EATING_00000112)
+
+# Class: obo:EATING_00000119 (eating influenced by Youtube)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000119 "eating influenced by Youtube"@en)
+SubClassOf(obo:EATING_00000119 obo:EATING_00000112)
+
+# Class: obo:EATING_0000012 (gleaning process)
+
+AnnotationAssertion(rdfs:label obo:EATING_0000012 "gleaning process"@en)
+SubClassOf(obo:EATING_0000012 obo:EATING_000009)
+
+# Class: obo:EATING_00000120 (eating influenced by culture)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000120 "eating influenced by culture"@en)
+SubClassOf(obo:EATING_00000120 obo:EATING_00000092)
+
+# Class: obo:EATING_00000121 (eating influenced by peer pressure)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000121 "eating influenced by peer pressure"@en)
+SubClassOf(obo:EATING_00000121 obo:EATING_00000092)
+
+# Class: obo:EATING_00000122 (eating while bathing behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000122 "eating while bathing behavior"@en)
+SubClassOf(obo:EATING_00000122 obo:EATING_00000050)
+
+# Class: obo:EATING_00000123 (eating while biking behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000123 "eating while biking behavior"@en)
+SubClassOf(obo:EATING_00000123 obo:EATING_00000050)
+
+# Class: obo:EATING_00000124 (eating while crying behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000124 "eating while crying behavior"@en)
+SubClassOf(obo:EATING_00000124 obo:EATING_00000050)
+
+# Class: obo:EATING_00000125 (eating while defacating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000125 "eating while defacating behavior"@en)
+SubClassOf(obo:EATING_00000125 obo:EATING_00000050)
+
+# Class: obo:EATING_00000127 (eating while driving behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000127 "eating while driving behavior"@en)
+SubClassOf(obo:EATING_00000127 obo:EATING_00000050)
+
+# Class: obo:EATING_00000128 (eating while exercising behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000128 "eating while exercising behavior"@en)
+SubClassOf(obo:EATING_00000128 obo:EATING_00000050)
+
+# Class: obo:EATING_00000129 (eating while laughing behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000129 "eating while laughing behavior"@en)
+SubClassOf(obo:EATING_00000129 obo:EATING_00000050)
+
+# Class: obo:EATING_0000013 (hunting process)
+
+AnnotationAssertion(rdfs:label obo:EATING_0000013 "hunting process"@en)
+SubClassOf(obo:EATING_0000013 obo:EATING_000009)
+
+# Class: obo:EATING_00000130 (eating while laying behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000130 "eating while laying behavior"@en)
+SubClassOf(obo:EATING_00000130 obo:EATING_00000050)
+
+# Class: obo:EATING_00000131 (eating while lounging behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000131 "eating while lounging behavior"@en)
+SubClassOf(obo:EATING_00000131 obo:EATING_00000050)
+
+# Class: obo:EATING_00000133 (eating while reading behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000133 "eating while reading behavior"@en)
+SubClassOf(obo:EATING_00000133 obo:EATING_00000050)
+
+# Class: obo:EATING_00000134 (eating while running behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000134 "eating while running behavior"@en)
+SubClassOf(obo:EATING_00000134 obo:EATING_00000050)
+
+# Class: obo:EATING_00000135 (eating while seated behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000135 "eating while seated behavior"@en)
+SubClassOf(obo:EATING_00000135 obo:EATING_00000050)
+
+# Class: obo:EATING_00000136 (eating while studying behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000136 "eating while studying behavior"@en)
+SubClassOf(obo:EATING_00000136 obo:EATING_00000050)
+
+# Class: obo:EATING_00000137 (eating while swimming behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000137 "eating while swimming behavior"@en)
+SubClassOf(obo:EATING_00000137 obo:EATING_00000050)
+
+# Class: obo:EATING_00000138 (eating while talking behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000138 "eating while talking behavior"@en)
+SubClassOf(obo:EATING_00000138 obo:EATING_00000050)
+
+# Class: obo:EATING_00000139 (eating while walking behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000139 "eating while walking behavior"@en)
+SubClassOf(obo:EATING_00000139 obo:EATING_00000050)
+
+# Class: obo:EATING_0000014 (purchasing process)
+
+AnnotationAssertion(rdfs:label obo:EATING_0000014 "purchasing process"@en)
+SubClassOf(obo:EATING_0000014 obo:EATING_000009)
+
+# Class: obo:EATING_00000140 (eating while working behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000140 "eating while working behavior"@en)
+SubClassOf(obo:EATING_00000140 obo:EATING_00000050)
+
+# Class: obo:EATING_00000141 (eating while yelling behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000141 "eating while yelling behavior"@en)
+SubClassOf(obo:EATING_00000141 obo:EATING_00000050)
+
+# Class: obo:EATING_00000142 (time spent chewing)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000142 "time spent chewing"@en)
+SubClassOf(obo:EATING_00000142 obo:EATING_00000049)
+
+# Class: obo:EATING_00000143 (time spent eating course)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000143 "time spent eating course"@en)
+SubClassOf(obo:EATING_00000143 obo:EATING_00000049)
+
+# Class: obo:EATING_00000144 (time spent eating meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000144 "time spent eating meal"@en)
+SubClassOf(obo:EATING_00000144 obo:EATING_00000049)
+
+# Class: obo:EATING_00000145 (celebratory meal behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000145 "celebratory meal behavior"@en)
+SubClassOf(obo:EATING_00000145 obo:EATING_00000047)
+
+# Class: obo:EATING_00000146 (compensatory meal behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000146 "compensatory meal behavior"@en)
+SubClassOf(obo:EATING_00000146 obo:EATING_00000047)
+
+# Class: obo:EATING_00000147 (feasting meal behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000147 "feasting meal behavior"@en)
+SubClassOf(obo:EATING_00000147 obo:EATING_00000047)
+
+# Class: obo:EATING_00000148 (health promoting meal behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000148 "health promoting meal behavior"@en)
+SubClassOf(obo:EATING_00000148 obo:EATING_00000047)
+
+# Class: obo:EATING_00000149 (holiday meal behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000149 "holiday meal behavior"@en)
+SubClassOf(obo:EATING_00000149 obo:EATING_00000047)
+
+# Class: obo:EATING_0000015 (shopping process)
+
+AnnotationAssertion(rdfs:label obo:EATING_0000015 "shopping process"@en)
+SubClassOf(obo:EATING_0000015 obo:EATING_0000014)
+
+# Class: obo:EATING_00000150 (post-workout meal behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000150 "post-workout meal behavior"@en)
+SubClassOf(obo:EATING_00000150 obo:EATING_00000047)
+
+# Class: obo:EATING_00000151 (religious meal behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000151 "religious meal behavior"@en)
+SubClassOf(obo:EATING_00000151 obo:EATING_00000047)
+
+# Class: obo:EATING_00000152 (social meal behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000152 "social meal behavior"@en)
+SubClassOf(obo:EATING_00000152 obo:EATING_00000047)
+
+# Class: obo:EATING_00000153 (familial meal behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000153 "familial meal behavior"@en)
+SubClassOf(obo:EATING_00000153 obo:EATING_00000152)
+
+# Class: obo:EATING_00000154 (friend social gathering meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000154 "friend social gathering meal"@en)
+SubClassOf(obo:EATING_00000154 obo:EATING_00000152)
+
+# Class: obo:EATING_00000155 (religious holiday meals)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000155 "religious holiday meals"@en)
+SubClassOf(obo:EATING_00000155 obo:EATING_00000149)
+
+# Class: obo:EATING_00000156 (secular holiday meals)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000156 "secular holiday meals"@en)
+SubClassOf(obo:EATING_00000156 obo:EATING_00000149)
+
+# Class: obo:EATING_00000158 (Christian holiday meals)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000158 "Christian holiday meals"@en)
+SubClassOf(obo:EATING_00000158 obo:EATING_00000155)
+
+# Class: obo:EATING_00000159 (Catholic holiday meals)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000159 "Catholic holiday meals"@en)
+SubClassOf(obo:EATING_00000159 obo:EATING_00000155)
+
+# Class: obo:EATING_00000160 (Hindu holiday meals)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000160 "Hindu holiday meals"@en)
+SubClassOf(obo:EATING_00000160 obo:EATING_00000155)
+
+# Class: obo:EATING_00000161 (Jewish holiday meals)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000161 "Jewish holiday meals"@en)
+SubClassOf(obo:EATING_00000161 obo:EATING_00000155)
+
+# Class: obo:EATING_00000162 (Chinese holiday meals)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000162 "Chinese holiday meals"@en)
+SubClassOf(obo:EATING_00000162 obo:EATING_00000155)
+
+# Class: obo:EATING_00000163 (Muslim holiday meals)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000163 "Muslim holiday meals"@en)
+SubClassOf(obo:EATING_00000163 obo:EATING_00000155)
+
+# Class: obo:EATING_00000164 (Chinese New Year holiday meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000164 "Chinese New Year holiday meal"@en)
+SubClassOf(obo:EATING_00000164 obo:EATING_00000162)
+
+# Class: obo:EATING_00000165 (Christmas holiday meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000165 "Christmas holiday meal"@en)
+SubClassOf(obo:EATING_00000165 obo:EATING_00000158)
+
+# Class: obo:EATING_00000166 (Easter holiday meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000166 "Easter holiday meal"@en)
+SubClassOf(obo:EATING_00000166 obo:EATING_00000158)
+
+# Class: obo:EATING_00000167 (Diwali holiday meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000167 "Diwali holiday meal"@en)
+SubClassOf(obo:EATING_00000167 obo:EATING_00000160)
+
+# Class: obo:EATING_00000168 (Ganesh Chaturthi holiday meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000168 "Ganesh Chaturthi holiday meal"@en)
+SubClassOf(obo:EATING_00000168 obo:EATING_00000160)
+
+# Class: obo:EATING_00000169 (Holi holiday meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000169 "Holi holiday meal"@en)
+SubClassOf(obo:EATING_00000169 obo:EATING_00000160)
+
+# Class: obo:EATING_00000170 (Hanukkah holiday meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000170 "Hanukkah holiday meal"@en)
+SubClassOf(obo:EATING_00000170 obo:EATING_00000161)
+
+# Class: obo:EATING_00000171 (Passover holiday meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000171 "Passover holiday meal"@en)
+SubClassOf(obo:EATING_00000171 obo:EATING_00000161)
+
+# Class: obo:EATING_00000172 (Rosh Hashanah holiday meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000172 "Rosh Hashanah holiday meal"@en)
+SubClassOf(obo:EATING_00000172 obo:EATING_00000161)
+
+# Class: obo:EATING_00000173 (Shabbat holiday meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000173 "Shabbat holiday meal"@en)
+SubClassOf(obo:EATING_00000173 obo:EATING_00000161)
+
+# Class: obo:EATING_00000174 (Yom Kippur holiday meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000174 "Yom Kippur holiday meal"@en)
+SubClassOf(obo:EATING_00000174 obo:EATING_00000161)
+
+# Class: obo:EATING_00000175 (Eid holiday meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000175 "Eid holiday meal"@en)
+SubClassOf(obo:EATING_00000175 obo:EATING_00000163)
+
+# Class: obo:EATING_00000176 (Islamic New Year holiday meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000176 "Islamic New Year holiday meal"@en)
+SubClassOf(obo:EATING_00000176 obo:EATING_00000163)
+
+# Class: obo:EATING_00000178 (Father's Day holiday meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000178 "Father's Day holiday meal"@en)
+SubClassOf(obo:EATING_00000178 obo:EATING_00000156)
+
+# Class: obo:EATING_00000179 (Labor Day holiday meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000179 "Labor Day holiday meal"@en)
+SubClassOf(obo:EATING_00000179 obo:EATING_00000156)
+
+# Class: obo:EATING_00000180 (Mother's Day holiday meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000180 "Mother's Day holiday meal"@en)
+SubClassOf(obo:EATING_00000180 obo:EATING_00000156)
+
+# Class: obo:EATING_00000181 (New Year celebration holiday meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000181 "New Year celebration holiday meal"@en)
+SubClassOf(obo:EATING_00000181 obo:EATING_00000156)
+
+# Class: obo:EATING_00000182 (Saint Patrick's Day holiday meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000182 "Saint Patrick's Day holiday meal"@en)
+SubClassOf(obo:EATING_00000182 obo:EATING_00000156)
+
+# Class: obo:EATING_00000183 (Thanksgiving holiday meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000183 "Thanksgiving holiday meal"@en)
+SubClassOf(obo:EATING_00000183 obo:EATING_00000156)
+
+# Class: obo:EATING_00000184 (Fourth of July holiday meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000184 "Fourth of July holiday meal"@en)
+SubClassOf(obo:EATING_00000184 obo:EATING_00000156)
+
+# Class: obo:EATING_00000185 (anniversary celebratory meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000185 "anniversary celebratory meal"@en)
+SubClassOf(obo:EATING_00000185 obo:EATING_00000145)
+
+# Class: obo:EATING_00000186 (birthday celebratory meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000186 "birthday celebratory meal"@en)
+SubClassOf(obo:EATING_00000186 obo:EATING_00000145)
+
+# Class: obo:EATING_00000187 (graduation celebratory meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000187 "graduation celebratory meal"@en)
+SubClassOf(obo:EATING_00000187 obo:EATING_00000145)
+
+# Class: obo:EATING_00000188 (personal occasion celebratory meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000188 "personal occasion celebratory meal"@en)
+SubClassOf(obo:EATING_00000188 obo:EATING_00000145)
+
+# Class: obo:EATING_00000189 (promotion celebratory meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000189 "promotion celebratory meal"@en)
+SubClassOf(obo:EATING_00000189 obo:EATING_00000145)
+
+# Class: obo:EATING_00000190 (wedding celebratory meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000190 "wedding celebratory meal"@en)
+SubClassOf(obo:EATING_00000190 obo:EATING_00000145)
+
+# Class: obo:EATING_00000191 (compensation for stress meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000191 "compensation for stress meal"@en)
+SubClassOf(obo:EATING_00000191 obo:EATING_00000146)
+
+# Class: obo:EATING_00000192 (compensation for sleep meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000192 "compensation for sleep meal"@en)
+SubClassOf(obo:EATING_00000192 obo:EATING_00000146)
+
+# Class: obo:EATING_00000193 (compensation for physical activity meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000193 "compensation for physical activity meal"@en)
+SubClassOf(obo:EATING_00000193 obo:EATING_00000146)
+
+# Class: obo:EATING_00000194 (compensation for other foods consumed meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000194 "compensation for other foods consumed meal"@en)
+SubClassOf(obo:EATING_00000194 obo:EATING_00000146)
+
+# Class: obo:EATING_00000195 (agricultural feast meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000195 "agricultural feast meal"@en)
+SubClassOf(obo:EATING_00000195 obo:EATING_00000147)
+
+# Class: obo:EATING_00000196 (military feast meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000196 "military feast meal"@en)
+SubClassOf(obo:EATING_00000196 obo:EATING_00000147)
+
+# Class: obo:EATING_00000197 (religious feast meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000197 "religious feast meal"@en)
+SubClassOf(obo:EATING_00000197 obo:EATING_00000147)
+
+# Class: obo:EATING_00000198 (socio-cultural feast meal)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000198 "socio-cultural feast meal"@en)
+SubClassOf(obo:EATING_00000198 obo:EATING_00000147)
+
+# Class: obo:EATING_00000199 (alkaline diet)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000199 "alkaline diet"@en)
+SubClassOf(obo:EATING_00000199 obo:EATING_00000148)
+
+# Class: obo:EATING_0000020 (food foraging process)
+
+AnnotationAssertion(rdfs:label obo:EATING_0000020 "food foraging process"@en)
+SubClassOf(obo:EATING_0000020 obo:EATING_000009)
+
+# Class: obo:EATING_00000200 (atkins diet)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000200 "atkins diet"@en)
+SubClassOf(obo:EATING_00000200 obo:EATING_00000148)
+
+# Class: obo:EATING_00000201 (cleansing diet)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000201 "cleansing diet"@en)
+SubClassOf(obo:EATING_00000201 obo:EATING_00000148)
+
+# Class: obo:EATING_00000202 (fasting cleanse)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000202 "fasting cleanse"@en)
+SubClassOf(obo:EATING_00000202 obo:EATING_00000201)
+
+# Class: obo:EATING_00000203 (juice cleanse)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000203 "juice cleanse"@en)
+SubClassOf(obo:EATING_00000203 obo:EATING_00000201)
+
+# Class: obo:EATING_00000204 (master cleanse)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000204 "master cleanse"@en)
+SubClassOf(obo:EATING_00000204 obo:EATING_00000201)
+
+# Class: obo:EATING_00000205 (raw food cleanse)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000205 "raw food cleanse"@en)
+SubClassOf(obo:EATING_00000205 obo:EATING_00000201)
+
+# Class: obo:EATING_00000206 (water cleanse)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000206 "water cleanse"@en)
+SubClassOf(obo:EATING_00000206 obo:EATING_00000201)
+
+# Class: obo:EATING_00000207 (detox diet)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000207 "detox diet"@en)
+SubClassOf(obo:EATING_00000207 obo:EATING_00000148)
+
+# Class: obo:EATING_00000208 (gluten-free diet)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000208 "gluten-free diet"@en)
+SubClassOf(obo:EATING_00000208 obo:EATING_00000148)
+
+# Class: obo:EATING_00000209 (high protein diet)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000209 "high protein diet"@en)
+SubClassOf(obo:EATING_00000209 obo:EATING_00000148)
+
+# Class: obo:EATING_0000021 (horticulture process)
+
+AnnotationAssertion(rdfs:label obo:EATING_0000021 "horticulture process"@en)
+SubClassOf(obo:EATING_0000021 obo:EATING_000009)
+
+# Class: obo:EATING_00000210 (keto diet)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000210 "keto diet"@en)
+SubClassOf(obo:EATING_00000210 obo:EATING_00000148)
+
+# Class: obo:EATING_00000211 (low calorie diet)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000211 "low calorie diet"@en)
+SubClassOf(obo:EATING_00000211 obo:EATING_00000148)
+
+# Class: obo:EATING_00000213 (hacker's diet)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000213 "hacker's diet"@en)
+SubClassOf(obo:EATING_00000213 obo:EATING_00000211)
+
+# Class: obo:EATING_00000214 (Jenny Craig diet)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000214 "Jenny Craig diet"@en)
+SubClassOf(obo:EATING_00000214 obo:EATING_00000211)
+
+# Class: obo:EATING_00000215 (Nutrisystem diet)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000215 "Nutrisystem diet"@en)
+SubClassOf(obo:EATING_00000215 obo:EATING_00000211)
+
+# Class: obo:EATING_00000216 (Weight Watchers diet)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000216 "Weight Watchers diet"@en)
+SubClassOf(obo:EATING_00000216 obo:EATING_00000211)
+
+# Class: obo:EATING_00000217 (paleo diet)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000217 "paleo diet"@en)
+SubClassOf(obo:EATING_00000217 obo:EATING_00000148)
+
+# Class: obo:EATING_00000218 (semi-vegetarian diet)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000218 "semi-vegetarian diet"@en)
+SubClassOf(obo:EATING_00000218 obo:EATING_00000148)
+
+# Class: obo:EATING_00000219 (flexitarian)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000219 "flexitarian"@en)
+SubClassOf(obo:EATING_00000219 obo:EATING_00000218)
+
+# Class: obo:EATING_0000022 (pastoralism process)
+
+AnnotationAssertion(rdfs:label obo:EATING_0000022 "pastoralism process"@en)
+SubClassOf(obo:EATING_0000022 obo:EATING_000009)
+
+# Class: obo:EATING_00000220 (kangatarian)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000220 "kangatarian"@en)
+SubClassOf(obo:EATING_00000220 obo:EATING_00000218)
+
+# Class: obo:EATING_00000221 (pescetarian)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000221 "pescetarian"@en)
+SubClassOf(obo:EATING_00000221 obo:EATING_00000218)
+
+# Class: obo:EATING_00000222 (plant-based)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000222 "plant-based"@en)
+SubClassOf(obo:EATING_00000222 obo:EATING_00000218)
+
+# Class: obo:EATING_00000223 (south beach diet)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000223 "south beach diet"@en)
+SubClassOf(obo:EATING_00000223 obo:EATING_00000148)
+
+# Class: obo:EATING_00000224 (vegan diet)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000224 "vegan diet"@en)
+SubClassOf(obo:EATING_00000224 obo:EATING_00000148)
+
+# Class: obo:EATING_00000225 (vegetarian diet)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000225 "vegetarian diet"@en)
+SubClassOf(obo:EATING_00000225 obo:EATING_00000148)
+
+# Class: obo:EATING_00000226 (weight influencing diet)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000226 "weight influencing diet"@en)
+SubClassOf(obo:EATING_00000226 obo:EATING_00000148)
+
+# Class: obo:EATING_00000227 (ethically regulated eating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000227 "ethically regulated eating behavior"@en)
+SubClassOf(obo:EATING_00000227 obo:EATING_00000046)
+
+# Class: obo:EATING_00000228 (health-oriented eating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000228 "health-oriented eating behavior"@en)
+SubClassOf(obo:EATING_00000228 obo:EATING_00000046)
+
+# Class: obo:EATING_00000229 (image oriented eating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000229 "image oriented eating behavior"@en)
+SubClassOf(obo:EATING_00000229 obo:EATING_00000046)
+
+# Class: obo:EATING_00000230 (performance oriented eating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000230 "performance oriented eating behavior"@en)
+SubClassOf(obo:EATING_00000230 obo:EATING_00000046)
+
+# Class: obo:EATING_00000231 (religiously regulated eating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000231 "religiously regulated eating behavior"@en)
+SubClassOf(obo:EATING_00000231 obo:EATING_00000046)
+
+# Class: obo:EATING_00000232 (pescetarian eating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000232 "pescetarian eating behavior"@en)
+SubClassOf(obo:EATING_00000232 obo:EATING_00000227)
+
+# Class: obo:EATING_00000233 (plant-based eating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000233 "plant-based eating behavior"@en)
+SubClassOf(obo:EATING_00000233 obo:EATING_00000227)
+
+# Class: obo:EATING_00000234 (vegan eating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000234 "vegan eating behavior"@en)
+SubClassOf(obo:EATING_00000234 obo:EATING_00000227)
+
+# Class: obo:EATING_00000235 (vegetarian eating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000235 "vegetarian eating behavior"@en)
+SubClassOf(obo:EATING_00000235 obo:EATING_00000227)
+
+# Class: obo:EATING_00000236 (edenic eating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000236 "edenic eating behavior"@en)
+SubClassOf(obo:EATING_00000236 obo:EATING_00000231)
+
+# Class: obo:EATING_00000237 (halal eating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000237 "halal eating behavior"@en)
+SubClassOf(obo:EATING_00000237 obo:EATING_00000231)
+
+# Class: obo:EATING_00000238 (jane eating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000238 "jane eating behavior"@en)
+SubClassOf(obo:EATING_00000238 obo:EATING_00000231)
+
+# Class: obo:EATING_00000239 (kosher eating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000239 "kosher eating behavior"@en)
+SubClassOf(obo:EATING_00000239 obo:EATING_00000231)
+
+# Class: obo:EATING_00000240 (lacto-vegetarian eating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000240 "lacto-vegetarian eating behavior"@en)
+SubClassOf(obo:EATING_00000240 obo:EATING_00000231)
+
+# Class: obo:EATING_00000241 (self-regulated eating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000241 "self-regulated eating behavior"@en)
+SubClassOf(obo:EATING_00000241 obo:EATING_00000046)
+
+# Class: obo:EATING_00000242 (calorie counting behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000242 "calorie counting behavior"@en)
+SubClassOf(obo:EATING_00000242 obo:EATING_00000241)
+
+# Class: obo:EATING_00000243 (physiologically self-regulated eating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000243 "physiologically self-regulated eating behavior"@en)
+SubClassOf(obo:EATING_00000243 obo:EATING_00000241)
+
+# Class: obo:EATING_00000244 (psychological eating behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000244 "psychological eating behavior"@en)
+SubClassOf(obo:EATING_00000244 obo:EATING_00000241)
+
+# Class: obo:EATING_00000245 (after school snacking behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000245 "after school snacking behavior"@en)
+SubClassOf(obo:EATING_00000245 obo:EATING_00000043)
+
+# Class: obo:EATING_00000246 (late night snacking behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000246 "late night snacking behavior"@en)
+SubClassOf(obo:EATING_00000246 obo:EATING_00000043)
+
+# Class: obo:EATING_00000247 (mid-day snacking behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000247 "mid-day snacking behavior"@en)
+SubClassOf(obo:EATING_00000247 obo:EATING_00000043)
+
+# Class: obo:EATING_00000248 (morning snacking behavior)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000248 "morning snacking behavior"@en)
+SubClassOf(obo:EATING_00000248 obo:EATING_00000043)
+
+# Class: obo:EATING_00000249 (digestion process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000249 "digestion process"@en)
+SubClassOf(obo:EATING_00000249 obo:EATING_000005)
+
+# Class: obo:EATING_00000250 (involuntary food consumption)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000250 "involuntary food consumption"@en)
+SubClassOf(obo:EATING_00000250 obo:EATING_000005)
+
+# Class: obo:EATING_00000251 (voluntary food consumption)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000251 "voluntary food consumption"@en)
+SubClassOf(obo:EATING_00000251 obo:EATING_000005)
+
+# Class: obo:EATING_00000252 (chemical food digestion process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000252 "chemical food digestion process"@en)
+SubClassOf(obo:EATING_00000252 obo:EATING_00000249)
+
+# Class: obo:EATING_00000253 (mechanical food digestion process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000253 "mechanical food digestion process"@en)
+SubClassOf(obo:EATING_00000253 obo:EATING_00000249)
+
+# Class: obo:EATING_00000254 (chewing process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000254 "chewing process"@en)
+SubClassOf(obo:EATING_00000254 obo:EATING_00000253)
+
+# Class: obo:EATING_00000255 (auto device recording)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000255 "auto device recording"@en)
+SubClassOf(obo:EATING_00000255 obo:EATING_000006)
+
+# Class: obo:EATING_00000257 (historical recall measurement method)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000257 "historical recall measurement method"@en)
+SubClassOf(obo:EATING_00000257 obo:EATING_000006)
+
+# Class: obo:EATING_00000258 (measurement method data types)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000258 "measurement method data types"@en)
+SubClassOf(obo:EATING_00000258 obo:EATING_000006)
+
+# Class: obo:EATING_00000259 (realtime logging measurement method)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000259 "realtime logging measurement method"@en)
+SubClassOf(obo:EATING_00000259 obo:EATING_000006)
+
+# Class: obo:EATING_00000260 (realtime monitoring measurement method)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000260 "realtime monitoring measurement method"@en)
+SubClassOf(obo:EATING_00000260 obo:EATING_000006)
+
+# Class: obo:EATING_00000261 (electronic/paper diary)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000261 "electronic/paper diary"@en)
+SubClassOf(obo:EATING_00000261 obo:EATING_00000259)
+
+# Class: obo:EATING_00000262 (pictured enhanced log)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000262 "pictured enhanced log"@en)
+SubClassOf(obo:EATING_00000262 obo:EATING_00000259)
+
+# Class: obo:EATING_00000263 (human log data type)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000263 "human log data type"@en)
+SubClassOf(obo:EATING_00000263 obo:EATING_00000258)
+
+# Class: obo:EATING_00000264 (image data type)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000264 "image data type"@en)
+SubClassOf(obo:EATING_00000264 obo:EATING_00000258)
+
+# Class: obo:EATING_00000265 (length of time data type)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000265 "length of time data type"@en)
+SubClassOf(obo:EATING_00000265 obo:EATING_00000258)
+
+# Class: obo:EATING_00000266 (sound data type)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000266 "sound data type"@en)
+SubClassOf(obo:EATING_00000266 obo:EATING_00000258)
+
+# Class: obo:EATING_00000267 (spectrographic data type)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000267 "spectrographic data type"@en)
+SubClassOf(obo:EATING_00000267 obo:EATING_00000258)
+
+# Class: obo:EATING_00000268 (time of day data type)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000268 "time of day data type"@en)
+SubClassOf(obo:EATING_00000268 obo:EATING_00000258)
+
+# Class: obo:EATING_00000269 (video data type)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000269 "video data type"@en)
+SubClassOf(obo:EATING_00000269 obo:EATING_00000258)
+
+# Class: obo:EATING_00000270 (calorie log data type)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000270 "calorie log data type"@en)
+SubClassOf(obo:EATING_00000270 obo:EATING_00000263)
+
+# Class: obo:EATING_00000271 (description log data type)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000271 "description log data type"@en)
+SubClassOf(obo:EATING_00000271 obo:EATING_00000263)
+
+# Class: obo:EATING_00000272 (weight log data type)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000272 "weight log data type"@en)
+SubClassOf(obo:EATING_00000272 obo:EATING_00000263)
+
+# Class: obo:EATING_00000273 (jaw sound recording device data type)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000273 "jaw sound recording device data type"@en)
+SubClassOf(obo:EATING_00000273 obo:EATING_00000266)
+
+# Class: obo:EATING_00000274 (physiological recording measurement methods)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000274 "physiological recording measurement methods"@en)
+SubClassOf(obo:EATING_00000274 obo:EATING_00000255)
+
+# Class: obo:EATING_00000275 (utensil enhanced recording measurement method)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000275 "utensil enhanced recording measurement method"@en)
+SubClassOf(obo:EATING_00000275 obo:EATING_00000255)
+
+# Class: obo:EATING_00000276 (video monitor measurement method)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000276 "video monitor measurement method"@en)
+SubClassOf(obo:EATING_00000276 obo:EATING_00000255)
+
+# Class: obo:EATING_00000277 (24 hour dietary recall measurement method)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000277 "24 hour dietary recall measurement method"@en)
+SubClassOf(obo:EATING_00000277 obo:EATING_00000257)
+
+# Class: obo:EATING_00000278 (food frequency questionnaire measurement method)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000278 "food frequency questionnaire measurement method"@en)
+SubClassOf(obo:EATING_00000278 obo:EATING_00000257)
+
+# Class: obo:EATING_00000279 (food consumption frequency)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000279 "food consumption frequency"@en)
+SubClassOf(obo:EATING_00000279 obo:EATING_000007)
+
+# Class: obo:EATING_00000280 (consumption of fast food frequency)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000280 "consumption of fast food frequency"@en)
+SubClassOf(obo:EATING_00000280 obo:EATING_00000279)
+
+# Class: obo:EATING_00000281 (consumption of frozen food frequency)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000281 "consumption of frozen food frequency"@en)
+SubClassOf(obo:EATING_00000281 obo:EATING_00000279)
+
+# Class: obo:EATING_00000282 (consumption of home-cooked meal frequency)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000282 "consumption of home-cooked meal frequency"@en)
+SubClassOf(obo:EATING_00000282 obo:EATING_00000279)
+
+# Class: obo:EATING_00000283 (number of meals eaten)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000283 "number of meals eaten"@en)
+SubClassOf(obo:EATING_00000283 obo:EATING_00000279)
+
+# Class: obo:EATING_00000284 (consumption of fried food frequency)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000284 "consumption of fried food frequency"@en)
+SubClassOf(obo:EATING_00000284 obo:EATING_00000279)
+
+# Class: obo:EATING_00000285 (consumption of red meat frequency)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000285 "consumption of red meat frequency"@en)
+SubClassOf(obo:EATING_00000285 obo:EATING_00000279)
+
+# Class: obo:EATING_00000286 (five meals/day)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000286 "five meals/day"@en)
+SubClassOf(obo:EATING_00000286 obo:EATING_00000283)
+
+# Class: obo:EATING_00000287 (four meals/day)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000287 "four meals/day"@en)
+SubClassOf(obo:EATING_00000287 obo:EATING_00000283)
+
+# Class: obo:EATING_00000288 (three meals/day)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000288 "three meals/day"@en)
+SubClassOf(obo:EATING_00000288 obo:EATING_00000283)
+
+# Class: obo:EATING_00000290 (one meal/day)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000290 "one meal/day"@en)
+SubClassOf(obo:EATING_00000290 obo:EATING_00000283)
+
+# Class: obo:EATING_00000291 (production process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000291 "production process"@en)
+SubClassOf(obo:EATING_00000291 obo:BFO_0000015)
+
+# Class: obo:EATING_00000292 (food production process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000292 "food production process"@en)
+SubClassOf(obo:EATING_00000292 obo:EATING_00000291)
+
+# Class: obo:EATING_00000293 (aquaculture process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000293 "aquaculture process"@en)
+SubClassOf(obo:EATING_00000293 obo:EATING_00000292)
+
+# Class: obo:EATING_00000294 (cultivation process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000294 "cultivation process"@en)
+SubClassOf(obo:EATING_00000294 obo:EATING_00000292)
+
+# Class: obo:EATING_00000295 (farming process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000295 "farming process"@en)
+SubClassOf(obo:EATING_00000295 obo:EATING_00000294)
+
+# Class: obo:EATING_00000296 (co-operative farming process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000296 "co-operative farming process"@en)
+SubClassOf(obo:EATING_00000296 obo:EATING_00000295)
+
+# Class: obo:EATING_00000297 (commercial farming process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000297 "commercial farming process"@en)
+SubClassOf(obo:EATING_00000297 obo:EATING_00000295)
+
+# Class: obo:EATING_00000298 (crop rotation process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000298 "crop rotation process"@en)
+SubClassOf(obo:EATING_00000298 obo:EATING_00000295)
+
+# Class: obo:EATING_00000299 (dairy farming process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000299 "dairy farming process"@en)
+SubClassOf(obo:EATING_00000299 obo:EATING_00000295)
+
+# Class: obo:EATING_00000300 (gardening process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000300 "gardening process"@en)
+SubClassOf(obo:EATING_00000300 obo:EATING_00000295)
+
+# Class: obo:EATING_00000301 (harvesting process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000301 "harvesting process"@en)
+SubClassOf(obo:EATING_00000301 obo:EATING_00000295)
+
+# Class: obo:EATING_00000302 (irrigation farming process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000302 "irrigation farming process"@en)
+SubClassOf(obo:EATING_00000302 obo:EATING_00000295)
+
+# Class: obo:EATING_00000303 (ley farming process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000303 "ley farming process"@en)
+SubClassOf(obo:EATING_00000303 obo:EATING_00000295)
+
+# Class: obo:EATING_00000304 (plantation farming process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000304 "plantation farming process"@en)
+SubClassOf(obo:EATING_00000304 obo:EATING_00000295)
+
+# Class: obo:EATING_00000305 (subsistence farming process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000305 "subsistence farming process"@en)
+SubClassOf(obo:EATING_00000305 obo:EATING_00000295)
+
+# Class: obo:EATING_00000306 (commercial grain farming process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000306 "commercial grain farming process"@en)
+SubClassOf(obo:EATING_00000306 obo:EATING_00000297)
+
+# Class: obo:EATING_00000307 (extensive commercial farming process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000307 "extensive commercial farming process"@en)
+SubClassOf(obo:EATING_00000307 obo:EATING_00000297)
+
+# Class: obo:EATING_00000308 (intensive commercial farming process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000308 "intensive commercial farming process"@en)
+SubClassOf(obo:EATING_00000308 obo:EATING_00000297)
+
+# Class: obo:EATING_00000309 (forestry farming process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000309 "forestry farming process"@en)
+SubClassOf(obo:EATING_00000309 obo:EATING_00000304)
+
+# Class: obo:EATING_00000310 (shifting cultivation process)
+
+AnnotationAssertion(rdfs:label obo:EATING_00000310 "shifting cultivation process"@en)
+SubClassOf(obo:EATING_00000310 obo:EATING_00000305)
+
+# Class: obo:EATING_000004 (acquisition process)
+
+AnnotationAssertion(rdfs:label obo:EATING_000004 "acquisition process"@en)
+SubClassOf(obo:EATING_000004 obo:BFO_0000015)
+
+# Class: obo:EATING_000005 (consumption process)
+
+AnnotationAssertion(rdfs:label obo:EATING_000005 "consumption process"@en)
+SubClassOf(obo:EATING_000005 obo:BFO_0000015)
+
+# Class: obo:EATING_000006 (food consumption measurement methods)
+
+AnnotationAssertion(rdfs:label obo:EATING_000006 "food consumption measurement methods"@en)
+SubClassOf(obo:EATING_000006 obo:BFO_0000015)
+
+# Class: obo:EATING_000007 (food consumption time component)
+
+AnnotationAssertion(rdfs:label obo:EATING_000007 "food consumption time component"@en)
+SubClassOf(obo:EATING_000007 obo:BFO_0000015)
+
+# Class: obo:EATING_000008 (food acquisition process)
+
+AnnotationAssertion(rdfs:label obo:EATING_000008 "food acquisition process"@en)
+SubClassOf(obo:EATING_000008 obo:EATING_000004)
+
+# Class: obo:EATING_000009 (food procurement process)
+
+AnnotationAssertion(rdfs:label obo:EATING_000009 "food procurement process"@en)
+SubClassOf(obo:EATING_000009 obo:EATING_000008)
+
+# Class: obo:eating_influenced_by_adrenaline (obo:eating_influenced_by_adrenaline)
+
+SubClassOf(obo:eating_influenced_by_adrenaline obo:EATING_00000002)
+
+# Class: obo:eating_influenced_by_fear (obo:eating_influenced_by_fear)
+
+SubClassOf(obo:eating_influenced_by_fear obo:EATING_00000002)
+
+# Class: obo:eating_influenced_by_hunger (obo:eating_influenced_by_hunger)
+
+SubClassOf(obo:eating_influenced_by_hunger obo:EATING_00000002)
+
+# Class: obo:eating_influenced_by_love (obo:eating_influenced_by_love)
+
+SubClassOf(obo:eating_influenced_by_love obo:EATING_00000002)
+
+# Class: obo:eating_influenced_by_pain (obo:eating_influenced_by_pain)
+
+SubClassOf(obo:eating_influenced_by_pain obo:EATING_00000002)
+
+# Class: obo:eating_influenced_by_temperature (obo:eating_influenced_by_temperature)
+
+SubClassOf(obo:eating_influenced_by_temperature obo:EATING_00000001)
+
+# Class: obo:eating_influenced_by_thirst (obo:eating_influenced_by_thirst)
+
+SubClassOf(obo:eating_influenced_by_thirst obo:EATING_00000002)
+
+# Class: obo:eating_motivated_by_attention (obo:eating_motivated_by_attention)
+
+SubClassOf(obo:eating_motivated_by_attention obo:EATING_00000003)
+
+# Class: obo:eating_motivated_by_fame (obo:eating_motivated_by_fame)
+
+SubClassOf(obo:eating_motivated_by_fame obo:EATING_00000003)
+
+# Class: obo:eating_motivated_by_feelings_of_accomplishment (obo:eating_motivated_by_feelings_of_accomplishment)
+
+SubClassOf(obo:eating_motivated_by_feelings_of_accomplishment obo:EATING_00000018)
+
+# Class: obo:eating_motivated_by_feelings_of_curiosity (obo:eating_motivated_by_feelings_of_curiosity)
+
+SubClassOf(obo:eating_motivated_by_feelings_of_curiosity obo:EATING_00000018)
+
+# Class: obo:eating_motivated_by_feelings_of_enjoyment (obo:eating_motivated_by_feelings_of_enjoyment)
+
+SubClassOf(obo:eating_motivated_by_feelings_of_enjoyment obo:EATING_00000018)
+
+# Class: obo:eating_motivated_by_feelings_of_happiness (obo:eating_motivated_by_feelings_of_happiness)
+
+SubClassOf(obo:eating_motivated_by_feelings_of_happiness obo:EATING_00000018)
+
+# Class: obo:eating_motivated_by_feelings_of_pleasure (obo:eating_motivated_by_feelings_of_pleasure)
+
+SubClassOf(obo:eating_motivated_by_feelings_of_pleasure obo:EATING_00000018)
+
+# Class: obo:eating_motivated_by_feelings_of_pride (obo:eating_motivated_by_feelings_of_pride)
+
+SubClassOf(obo:eating_motivated_by_feelings_of_pride obo:EATING_00000018)
+
+# Class: obo:eating_motivated_by_praise (obo:eating_motivated_by_praise)
+
+SubClassOf(obo:eating_motivated_by_praise obo:EATING_00000003)
+
+# Class: obo:eating_motivated_by_reward (obo:eating_motivated_by_reward)
+
+SubClassOf(obo:eating_motivated_by_reward obo:EATING_00000003)
+
+
+)
